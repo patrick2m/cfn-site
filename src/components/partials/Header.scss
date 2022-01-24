@@ -16,6 +16,7 @@
 
     #main-menu {
         display: flex;
+        margin: 0 !important;
 
         li {
             list-style: none;
@@ -27,7 +28,7 @@
                 padding: 8px 12px;
 
                 &:hover {
-                    background-color: #1e54a5;
+                    background-color: rgba(14, 185, 168, 0.748);
                 }
             }
         }
