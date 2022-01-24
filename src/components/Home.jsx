@@ -1,9 +1,10 @@
 import './Home.scss';
+import CarouselContainer from './partials/Carousel';
 
 export default function Home() {
     return (
         <main id="main-content">
-            <h1 class="main-title">Bem-vindo à Casa das Fechaduras</h1>
+            <CarouselContainer />            
         </main>
     )
 }
