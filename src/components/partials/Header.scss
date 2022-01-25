@@ -18,17 +18,23 @@
         display: flex;
         margin: 0 !important;
 
+
         li {
             list-style: none;
+
 
             .menu-link {
                 text-decoration: none;
                 color: white;
                 font-weight: 600;
                 padding: 8px 12px;
+                border-radius: 8px;
+                text-shadow: 0.5px 0.5px 3px black;
 
                 &:hover {
-                    background-color: rgba(14, 185, 168, 0.748);
+                    background-color: rgba(14, 185, 168, 0.900);
+                    box-shadow: 0px 0px 3px;
+                    transition: 0.2s;
                 }
             }
         }

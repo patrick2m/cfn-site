@@ -2,6 +2,7 @@ import { Carousel } from "react-bootstrap";
 
 import img1 from '../../assets/img/carousel_home_1.jpg';
 import img2 from '../../assets/img/carousel_home_2.jpg';
+import img3 from '../../assets/img/carousel_home_3.jpg';
 
 export default function CarouselContainer() {
     return (
@@ -32,7 +33,7 @@ export default function CarouselContainer() {
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src={img2}
+                src={img3}
                 alt="Third slide"
                 />
 
