@@ -15,7 +15,7 @@ export default function CarouselContainer() {
                 />
                 <Carousel.Caption>
                 <h3 className="main-title">Bem-vindo à Casa das Fechaduras.</h3>
-                <p>Utensílios para a casa é aqui</p>
+                <p>Utensílios para a casa é aqui.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -26,8 +26,8 @@ export default function CarouselContainer() {
                 />
 
                 <Carousel.Caption>
-                <h3 className="main-title">Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3 className="main-title">Localizada no cento de niterói.</h3>
+                <p>No centro comercial da cidade, área de fácil acesso para você.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -38,8 +38,8 @@ export default function CarouselContainer() {
                 />
 
                 <Carousel.Caption>
-                <h3 className="main-title">Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h3 className="main-title">Grande variedade de produtos</h3>
+                <p>Contamos com mais de 1000 produtos diferentes, para satisfazer o seu pedido.</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
