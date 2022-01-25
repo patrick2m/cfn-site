@@ -34,5 +34,5 @@ export default function About() {
             </div>
             <MapBox />
         </main>
-    )
+    );
 }
