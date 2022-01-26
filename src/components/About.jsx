@@ -1,4 +1,5 @@
 import './Home.scss';
+import MapBox from './partials/MapBox';
 
 export default function About() {
     return (
@@ -24,6 +25,8 @@ export default function About() {
                 Se você quiser saber mais detalhes e ouvir nossa história detalhe por detalhe, 
                 vamos adorar te receber em nossa loja e poder tomar um café com você! Bem vindo á sua Casa!
             </p>
+
+            <MapBox />
         </main>
     )
 }
