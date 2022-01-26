@@ -11,7 +11,7 @@ const MapBox = () => {
 
   const lat = -22.889737133069602;
   const lng = -43.119811196483795;
-  const zoom = 18;
+  const zoom = 16;
 
   // Initialize map when component mounts
   useEffect(() => {
@@ -35,11 +35,6 @@ const MapBox = () => {
 
   return (
     <div>
-      <div className='sidebarStyle'>
-        <div>
-          Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
-        </div>
-      </div>
       <div className='map-container' ref={mapContainerRef} />
     </div>
   );
