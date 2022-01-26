@@ -26,6 +26,12 @@ export default function About() {
                 vamos adorar te receber em nossa loja e poder tomar um café com você! Bem vindo á sua Casa!
             </p>
 
+            <div className="address-info">
+                <h2>Endereço:</h2>
+                <br></br>
+                <p>Rua Marechal Deodoro, Nº 168, Centro - Niterói/RJ</p>
+                <p>24030-060</p>
+            </div>
             <MapBox />
         </main>
     )
