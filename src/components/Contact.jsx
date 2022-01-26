@@ -11,9 +11,6 @@ export default function Contact() {
                 Email : informatica@casadasfechaduras.com.br
             </p>
             <p className="main-description">
-                Loja aberta no local : R. Mal. Deodoro, 168 - Centro, Niterói - RJ, 24030-111 
-            </p>
-            <p className="main-description">
                 Horários de abertura da loja:
             </p>
             <p className="main-description">
