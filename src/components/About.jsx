@@ -6,7 +6,7 @@ import MapBox from './partials/MapBox';
 export default function About() {
     return (
         <main id="main-content">
-            <h1 class="big-title">Sobre nós</h1>
+            <h2 class="big-title">Sobre nós</h2>
 
             <div className="article-content">
                 <img src={img1} alt="" />
@@ -29,12 +29,12 @@ export default function About() {
             </div>
 
             <div className="address-info">
-                <h1 className="big-title">Endereços:</h1>
+                <h2 className="big-title">Endereços</h2>
                 <br></br>
 
                 <div className="map-info">
                     <div>
-                        <h4 className="big-title">Unidade Niterói</h4>
+                        <h4 className="big-title big-title-2">Unidade Niterói</h4>
                         <p>Rua Marechal Deodoro, Nº 168, Centro - Niterói/RJ</p>
                         <p>24030-060</p>
                         <MapBox
@@ -45,7 +45,7 @@ export default function About() {
                     </div>
 
                     <div>
-                        <h4 className="big-title">Unidade São Gonçalo</h4>
+                        <h4 className="big-title big-title-2">Unidade São Gonçalo</h4>
                         <p>Rua Dr. Felíciano Sodré, Nº 57, Centro - São Gonçalo</p>
                         <p>24440-440</p>
                         <MapBox
