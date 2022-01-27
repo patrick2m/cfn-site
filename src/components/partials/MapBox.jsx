@@ -6,12 +6,12 @@ import './MapBox.scss';
 mapboxgl.accessToken =
   'pk.eyJ1IjoiaW5mb3JtYXRpY2FjZm4iLCJhIjoiY2t5dWNjNGV0MW05NDJ1bnVsNXI3dHR3NCJ9.HqoargzPCIGUSCYMA8vFdA';
 
-const MapBox = () => {
+function MapBox(props) {
   const mapContainerRef = useRef(null);
 
-  const lat = -22.889737133069602;
-  const lng = -43.119811196483795;
-  const zoom = 16;
+  const lat = props.latitude;
+  const lng = props.longitude;
+  const zoom = props.zoom;
 
   // Initialize map when component mounts
   useEffect(() => {
