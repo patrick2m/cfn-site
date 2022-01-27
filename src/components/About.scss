@@ -5,7 +5,8 @@
     margin: 60px 0;
 
     img {
-        max-width: 1100px;
+        width: 70vw;
+        margin-top: -30px;
         margin-bottom: 20px;
     }
 
@@ -18,14 +19,18 @@
 }
 
 .big-title {
-    margin: 12px 0;
+    font-weight: bold;
+    margin:  0 0 12px 0;
     border-left: 8px solid #06685e;
     padding-left: 12px;
+}
+
+.big-title-2 {
+    border-left: 8px solid #029f8e;
 }
 
 .map-info {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     display: grid;
-    margin: 30px 0;
 }
