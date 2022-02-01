@@ -6,7 +6,7 @@ import MapBox from './partials/MapBox';
 export default function About() {
     return (
         <main id="main-content">
-            <h2 class="big-title">Sobre nós</h2>
+            <h2 className="big-title">Sobre nós</h2>
 
             <div className="article-content">
                 <img src={img1} alt="" />
