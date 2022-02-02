@@ -16,34 +16,34 @@ export default function Header() {
                 <div>
                     <Link to="/"><img src={imglogo} alt="Casa das Fechaduras" /></Link>
                 </div>
-                    <ul id="main-menu">
-                        <li><Link className="menu-link" to="/">Home</Link></li>
-                        <li><Link className="menu-link" to="/About">Sobre</Link></li>
-                        <li><Link className="menu-link" to="/About">Suporte</Link></li>
-                    </ul>
+                <ul id="main-menu">
+                    <li><Link className="menu-link" to="/">Home</Link></li>
+                    <li><Link className="menu-link" to="/About">Sobre</Link></li>
+                    <li><Link className="menu-link" to="/About">Suporte</Link></li>
+                </ul>
             </div>
 
 
             <div className="horario" id='main-menu'>
-                <img src={relogio} alt="Horários" style={{ width: '130px', height:'70px' }}/>
+                <img src={relogio} alt="Horários" style={{ width: '70px', height:'70px' }}/>
                 <div>
-                    <div>Horários de funcionamento:</div>
-                    <div>Seg - Sex, 8:00 - 18:00</div>
-                    <div>Sab, 8:00 - 13:00</div>
+                    <p>Horários de funcionamento:</p>
+                    <p>Seg - Sex, 8:00 - 18:00</p>
+                    <p>Sab, 8:00 - 13:00</p>
                 </div>
             </div>
 
 
             <div className="contato">
                 <div>
-                    <img src={icontel} alt="telefone" />(21) 3527-3000
-                    <img src={icontinsta} alt="Instagram" />/casadasfechaduras
+                    <img src={icontel} alt="telefone" /><span>(21) 3527-3000</span>
+                    <img src={icontinsta} alt="Instagram" /><span>/casadasfechaduras</span>
                 </div>
                 <div>
-                    <img src={iconemail} alt="Email" />informatica@casadasfechaduras.com.br
+                    <img src={iconemail} alt="Email" /><span>informatica@casadasfechaduras.com.br</span>
                 </div>
                 <div>
-                    <img src={iconplace} alt="Local" />Niterói e São Gonçalo / RJ
+                    <img src={iconplace} alt="Local" /><span>Niterói e São Gonçalo / RJ</span>
                 </div>
             </div>
 
