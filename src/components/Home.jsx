@@ -1,6 +1,8 @@
 import './Home.scss';
-import Cards from './partials/Cards';
 import CarouselContainer from './partials/Carousel';
+import Cards from './partials/Cards';
+import Gallery from './partials/Gallery'
+import Brands from './partials/Brands'
 import img1 from '../assets/img/carousel_home_1.jpg';
 import img2 from '../assets/img/carousel_home_2.jpg';
 import img3 from '../assets/img/carousel_home_3.jpg';
@@ -22,6 +24,8 @@ export default function Home() {
                 desc3="Contamos com mais de 1000 produtos diferentes, para satisfazer o seu pedido."
             />
             <Cards />
+            <Gallery />
+            <Brands />
         </>
     )
 }
