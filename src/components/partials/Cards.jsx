@@ -7,46 +7,43 @@ import './Cards.scss';
 export default function Cards() {
     return(
         <div className="card-container">
-            <Card style={{ width: '18rem' }}>
+            <Card className="card-class">
                 <Card.Img variant="top" src={img1} />
                 <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>Tecnologia de ponta para sua segurança.</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk
-                        of the card's content.
+                        Fechaduras eletrônicas para seu lar.
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
+                    <small className="text-muted">Clique para saber mais        +</small>
                 </Card.Footer>
             </Card>
             
-            <Card style={{ width: '18rem' }}>
+            <Card className="card-class">
                 <Card.Img variant="top" src={img1} />
                 <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>Prezamos pelo seu bem estar.</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk
-                        of the card's content.
+                        Priorizando a sua saúde e conforto.
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
+                    <small className="text-muted">Clique para saber mais        +</small>
                 </Card.Footer>
 
             </Card>
             
-            <Card style={{ width: '18rem' }}>
+            <Card className="card-class">
                 <Card.Img variant="top" src={img1} />
                 <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>Fazendo história no ramo a decadas.</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk
-                        of the card's content.
+                        Desde 1961 ao seu dispor.
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
+                    <small className="text-muted">Clique para saber mais        +</small>
                 </Card.Footer>
 
             </Card>
