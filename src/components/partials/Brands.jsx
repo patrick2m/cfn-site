@@ -2,10 +2,10 @@ import './Brands.scss';
 
 export default function Brands() {
     return (
-        <div className="section-brand">
+        <section id="section-brand">
             <div className="container-brand">
 
             </div>
-        </div>
+        </section>
     );
 }
