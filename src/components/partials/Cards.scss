@@ -3,10 +3,22 @@
     justify-content: space-evenly;
     align-items: center;
 
-    width: 80%;
+    width: 90%;
     margin: 20px auto;
 
     .card-class {
         width: 18rem;
+    }
+
+    .card-title {
+        font-size: medium;
+    }
+
+    .card-text {
+        font-size: small;
+    }
+
+    .text-muted {
+        font-size: 12px;
     }
 }
