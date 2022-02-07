@@ -82,8 +82,12 @@
 
         .local {
             display: flex;
-            justify-content: center;
-            margin-top: 8px;
+            justify-content:center;
+            margin-top: 5px;
+
+            span {
+                margin-top: 4px;
+            }
         }
 
     }

@@ -40,7 +40,7 @@ export default function About() {
                         <MapBox
                             latitude={-22.889737133069602}
                             longitude={-43.119811196483795}
-                            zoom={16}
+                            zoom={15}
                         />
                     </div>
 
@@ -51,7 +51,7 @@ export default function About() {
                         <MapBox
                             latitude={-22.826029565201875} 
                             longitude={-43.05057118452541}
-                            zoom={17}
+                            zoom={15}
                         />
                     </div>
                     
