@@ -1,14 +1,27 @@
-.card-container {
+#card-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 
     width: 90%;
-    margin: 20px auto;
+    margin: 25px auto;
+
+
 
     .card-class {
         width: 18rem;
+        box-shadow: 0px 0px 4px black;
+        
+        &:hover {
+            .card-img {
+            background-color: rgba(14, 185, 168, 0.900);
+            transition: 0.2s;
+            padding: 3px;
+            }
+        }
     }
+
+
 
     .card-title {
         font-size: medium;
