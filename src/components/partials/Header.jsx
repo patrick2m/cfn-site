@@ -33,19 +33,19 @@ export default function Header() {
 
                 <div id="contato">
                     <div className="socials">
-                        <a href="https://www.facebook.com/LojaCasaFechaduras/">
+                        <a href="https://www.facebook.com/LojaCasaFechaduras/" target={"_blank"} rel="noreferrer">
                             <div>
-                                <img src={iconface} alt="facebook.com/LojaCasaFechaduras/" /><span>{/*informatica@casadasfechaduras.com.br*/}</span>
+                                <img src={iconface} alt="facebook.com/LojaCasaFechaduras/" />
                             </div>
                         </a>
-                        <a href="https://www.instagram.com/casadasfechaduras/">
+                        <a href="https://www.instagram.com/casadasfechaduras/" target={"_blank"} rel="noreferrer">
                             <div>
-                                <img src={icontinsta} alt="instagram.com/casadasfechaduras/" /><span>{/*/casadasfechaduras*/}</span>
+                                <img src={icontinsta} alt="instagram.com/casadasfechaduras/" />
                             </div>
                         </a>
                         <a href="mailto:informatica@casadasfechaduras.com.br?subject=Enviado pelo site">
                             <div>
-                                <img src={iconemail} alt="Email" /><span>{/*informatica@casadasfechaduras.com.br*/}</span>
+                                <img src={iconemail} alt="Email" />
                             </div>
                         </a>
                     </div>
