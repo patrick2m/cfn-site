@@ -1,12 +1,36 @@
-#brand-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+#body-brands {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #a4b5ba;
 
-    
-    .container-brand {
-        background-color: rgb(146, 146, 146);
-        width: 800px;
-        height: 500px;
+    h1 {
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+
+
+    #image-brands {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 50px 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        grid-auto-rows: 90px;
+        grid-auto-flow: dense;
+        grid-gap: 50px;
+
+        .image-box {
+            position: relative;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit:contain
+            }
+        }
     }
 }
