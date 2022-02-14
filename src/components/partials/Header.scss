@@ -7,23 +7,24 @@
         display: flex;
         justify-content:space-evenly;
         align-items:center;
-
         width: 90%;
         margin: 0 auto;
+        height: 100%;
     }
-
 
     #menu-logo {
-        img {
+        .big-logo {
             max-width: 330px;
+            display: block;
         }
 
+        .small-logo {
+            display: none;
+            max-width: 80px;
+        }
     }
 
-
-
     #menu-header {
-
         ul {
             display: flex;
             padding: 0;
@@ -39,8 +40,7 @@
                     font-weight: 600;
                     padding: 0 10px;
                     border-radius: 2px;
-                    text-shadow: 0.5px 0.5px 3px black;
-
+                    // text-shadow: 0.5px 0.5px 3px black;
 
                     &:hover {
                         background-color: rgba(14, 185, 168, 0.900);
@@ -50,10 +50,7 @@
                 }
             }
         }
-
     }
-
-
 
     #contato {
         width: 330px;
@@ -61,12 +58,12 @@
         a {
             text-decoration: none;
         }
+
         img {
             max-width: 20px;
             max-height: 20px;
             margin-top: 5px;
             margin-right: 5px;
-
         }
 
         span {
@@ -83,17 +80,38 @@
         .local {
             display: flex;
             justify-content:center;
-            margin-top: 5px;
+            margin-top: 2px;
+            // display: flex;
 
             span {
                 margin-top: 4px;
             }
         }
-
     }
+}
 
+// @media (max-width: 1120px) {
 
+// } 
 
+@media (max-width: 860px) {
+    #main-header {
+        #menu-logo {
+            .big-logo {
+                max-width: 330px;
+                display: none;
+            }
 
+            .small-logo {
+                display: block;
+            }
+        }
 
+        #contato {
+        width: 80px;
+            .local {
+                display: none;
+            }
+        }
+    }
 }
