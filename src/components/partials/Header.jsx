@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import imglogo from '../../assets/img/logoCFN.svg'
+import imglogomin from '../../assets/img/logoCFNmin.svg'
 import iconface from '../../assets/img/icons/iconeface.png'
 import icontinsta from '../../assets/img/icons/iconeinsta.png'
 import iconemail from '../../assets/img/icons/iconemail.png'
@@ -13,10 +14,10 @@ export default function Header() {
         <header id="main-header">
             <div className="header-container">
                 <div id="menu-logo">
-                    <div>
-                        <Link to="/"><img src={imglogo} alt="Casa das Fechaduras" /></Link>
-                    </div>
-                    
+                    <Link to="/">
+                        <img className='big-logo' src={imglogo} alt="Casa das Fechaduras" />
+                        <img className='small-logo' src={imglogomin} alt="Casa das Fechaduras" />
+                    </Link>
                 </div>
 
 
