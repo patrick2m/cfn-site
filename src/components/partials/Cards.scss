@@ -2,36 +2,32 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
+    max-height: 410pxz;
     width: 90%;
-    margin: 25px auto;
+    margin: 40px auto;
 
 
-    img {
-        max-width: 300px;
-    }
+
 
 
     .card-class {
         display: flex;
         justify-content: center;
         width: 286px;
-        box-shadow: 0px 0px 4px black;
+        box-shadow: 0px 0px 5px black;
         transition: all 2s ease;
         min-height: 410px;
 
-
+        img {
+            max-width: 300px;
+        }
         
         &:hover {
-            .card-img {
-            background-color: rgba(14, 185, 168, 0.900);
-            transition: 0.2s;
-            padding: 3px;
-            }
-            width: 400px;
-            img {
-                max-width: 300px;
-            }
+            box-shadow: 0px 0px 30px black;
+            transition: all 0.4s ease;
+            // width: 300px;
+            // height: 411px;
+
         }
     }
 
