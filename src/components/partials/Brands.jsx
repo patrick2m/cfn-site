@@ -12,6 +12,7 @@ import soprano from '../../assets/img/brands/soprano.png';
 import stam from '../../assets/img/brands/stam.png';
 import vouga from '../../assets/img/brands/vouga.png';
 import yaltres from '../../assets/img/brands/yaltres.png';
+import tupai from '../../assets/img/brands/tupai.png';
 
 
 export default function Brands() {
@@ -20,41 +21,45 @@ export default function Brands() {
             <h1>As melhores marcas pra você!</h1>
             <div id='image-brands'>
                 <div className='image-box'> 
-                    <img src={alianca} alt="foto padrão" />
+                    <img src={alianca} alt="Aliança" />
                 </div>
                 <div className='image-box'>
-                    <img src={arouca} alt="foto padrão" />
+                    <img src={arouca} alt="Arouca" />
                 </div>
                 <div className='image-box'>
-                    <img src={haga} alt="foto padrão" />
+                    <img src={haga} alt="Haga" />
                 </div>
                 <div className='image-box'>
-                    <img src={intelbras} alt="foto padrão" />
+                    <img src={intelbras} alt="Intelbras" />
                 </div>
                 <div className='image-box'>
-                    <img src={multlock} alt="foto padrão" />
+                    <img src={multlock} alt="Mul-T-Lock" />
                 </div>
                 <div className='image-box'>
-                    <img src={pado} alt="foto padrão" />
+                    <img src={pado} alt="Pado" />
                 </div>
                 <div className='image-box'>
-                    <img src={papaiz} alt="foto padrão" />
+                    <img src={papaiz} alt="Papaiz" />
                 </div>
                 <div className='image-box'>
-                    <img src={qtmov} alt="foto padrão" />
+                    <img src={qtmov} alt="QTMov" />
                 </div>
                 <div className='image-box'>
-                    <img src={soprano} alt="foto padrão" />
+                    <img src={soprano} alt="Soprano" />
                 </div>
                 <div className='image-box'>
-                    <img src={stam} alt="foto padrão" />
+                    <img src={stam} alt="Stam" />
                 </div>
                 <div className='image-box'>
-                    <img src={vouga} alt="foto padrão" />
+                    <img src={tupai} alt="TUPAI" />
                 </div>
                 <div className='image-box'>
-                    <img src={yaltres} alt="foto padrão" />
+                    <img src={vouga} alt="Vouga" />
                 </div>
+                <div className='image-box'>
+                    <img src={yaltres} alt="Yaltres" />
+                </div>
+
             </div>
         </div>
     );
