@@ -1,7 +1,16 @@
 import './About.scss'
 
-import about1 from '../assets/img/about/about_1.png'
+import aboutintro from '../assets/img/about/about_1.png'
 import img1956 from '../assets/img/about/1956.jpg'
+import amaralpeixoto from '../assets/img/about/amaral-peixoto-1970.jpg'
+import casadasfechaduras2010 from '../assets/img/about/casadasfechaduras2010.png'
+import chaveirocf from '../assets/img/about/chaveirocf.png'
+import casadasferramentas from '../assets/img/about/casadasferramentas2010.png'
+import apertodemao from '../assets/img/about/aperto-de-mao.jpg'
+import casadasfechaduras2010lojanova from '../assets/img/about/casadasfechaduras2010lojanova.png'
+import lojabb from '../assets/img/about/lojabb.jpg'
+import equipe from '../assets/img/about/equipe.jpg'
+import treinamento from '../assets/img/about/treinamento.jpg'
 import MapBox from './partials/MapBox'
 
 export default function About() {
@@ -10,7 +19,7 @@ export default function About() {
       <h2 className="section-title">Sobre nós</h2>
 
       <div className="intro-about">
-        <img src={about1} alt="" className="banner-about" />
+        <img src={aboutintro} alt="" className="banner-about" />
         <h4>
           Há mais de 60 anos no mercado, somos referência em qualidade e
           variedade de produtos. Somos uma casa cheia de tradição e boas
@@ -24,181 +33,159 @@ export default function About() {
         <div className="article-img-container">
           <img src={img1956} alt="Ano de 1956" className="article-img" />
           <div className="article-img-text-left">
-            <span className="text">Centro de Niterói na década de 1950</span>
+            <span className="text-img-description">
+              Centro de Niterói na década de 1950
+            </span>
           </div>
         </div>
-        <h4>
+        <span className="article-text">
           Isaac Augusto Ferreira Pinto iniciou suas atividades no comércio
           ferragista em 1956, após acumular experiências trabalhando numa das
           mais tradicionais casas de ferragens nos anos 40, a conhecida "Casa
           Borges".
-        </h4>
+        </span>
       </div>
 
       <div className="article">
-        <h4>
+        <span className="article-text">
           Constrói sua loja na Rua Marechal Deodoro, 192, uma das principais
           vias de acesso do Centro para os bairros da Zona Norte de município de
           São Gonçalo.
-        </h4>
+        </span>
         <div className="article-img-container">
           <img
-            src="http://lorempixel.com.br/300/150/?1"
-            alt=""
+            src={amaralpeixoto}
+            alt="Amaral Peixoto 1970"
             className="article-img"
           />
           <div className="article-img-text-right">
-            <span className="text">Legenda da foto</span>
+            <span className="text-img-description">
+              Rua Amaral Peixoto em 1970.
+            </span>
           </div>
         </div>
       </div>
 
       <div className="article">
         <div className="article-img-container">
-          <img
-            src="http://lorempixel.com.br/300/150/?2"
-            alt=""
-            className="article-img"
-          />
+          <img src={casadasfechaduras2010} alt="" className="article-img" />
           <div className="article-img-text-left">
-            <span className="text">Legenda da foto</span>
+            <span className="text-img-description">Legenda da foto</span>
           </div>
         </div>
-        <h4>
+        <span className="article-text">
           Inaugurada em 26 de julho de 1971, ganhou o nome de "Isaac das
           Fechaduras". Essa loja foi o ponto de partida de um trabalho
           persistente e intenso e até hoje permanece aberta ao público.
-        </h4>
+        </span>
       </div>
 
       <div className="article">
-        <h4>
+        <span className="article-text">
           A evolução do grupo é uma meta permanente: a prestação de serviços ao
           cliente gerou a criação do chaveiro próprio, o "ChaveiroCF", atendendo
           da simples cópia de chave até complexos sistemas de segurança, com a
           mesma qualidade já conhecida.
-        </h4>
+        </span>
         <div className="article-img-container">
-          <img
-            src="http://lorempixel.com.br/300/150/?3"
-            alt=""
-            className="article-img"
-          />
+          <img src={chaveirocf} alt="" className="article-img" />
           <div className="article-img-text-right">
-            <span className="text">Legenda da foto</span>
+            <span className="text-img-description">Legenda da foto</span>
           </div>
         </div>
       </div>
 
       <div className="article">
         <div className="article-img-container">
-          <img
-            src="http://lorempixel.com.br/300/150/?4"
-            alt=""
-            className="article-img"
-          />
+          <img src={apertodemao} alt="" className="article-img" />
           <div className="article-img-text-left">
-            <span className="text">Legenda da foto</span>
+            <span className="text-img-description">Legenda da foto</span>
           </div>
         </div>
-        <h4>
-          O setor de ferramentas se desenvolveu de forma expressiva, motivando a
-          abertura em 19/04/2004, da "Casa das Ferramentas", uma loja totalmente
-          especializada nesse segmento.
-        </h4>
-      </div>
-
-      <div className="article">
-        <h4>
+        <span className="article-text">
           Em seguida, convidou os seus parentes Amadeu Joaquim de Almeida e José
           Nicolau Pereira de Almeida para se associarem e desenvolverem ainda
           mais a empresa.
-        </h4>
-        <div className="article-img-container">
-          <img
-            src="http://lorempixel.com.br/300/150/?5"
-            alt=""
-            className="article-img"
-          />
-          <div className="article-img-text-right">
-            <span className="text">Legenda da foto</span>
-          </div>
-        </div>
+        </span>
       </div>
 
       <div className="article">
-        <div className="article-img-container">
-          <img
-            src="http://lorempixel.com.br/300/150/?6"
-            alt=""
-            className="article-img"
-          />
-          <div className="article-img-text-left">
-            <span className="text">Legenda da foto</span>
-          </div>
-        </div>
-        <h4>
+        <span className="article-text">
           Assim, em 12 de setembro de 1981, foi inaugurada a segunda loja, no nº
           168 da mesma rua, denominada "Casa das Fechaduras", com 1700 m2 de
           área construída e amplo espaço para a exposição da Já enorme variedade
           de produtos disponíveis.
-        </h4>
-      </div>
-
-      <div className="article">
-        <h4>
-          O desenvolvimento do setor de construção, nos anos 80, motivou a
-          criação, na nova loja, de setor especializado em louças e acessórios
-          para banheiros e cozinhas, o "Bello Banho".
-        </h4>
+        </span>
         <div className="article-img-container">
           <img
-            src="http://lorempixel.com.br/300/150/?7"
+            src={casadasfechaduras2010lojanova}
             alt=""
             className="article-img"
           />
           <div className="article-img-text-right">
-            <span className="text">Legenda da foto</span>
+            <span className="text-img-description">Legenda da foto</span>
           </div>
         </div>
       </div>
 
       <div className="article">
         <div className="article-img-container">
-          <img
-            src="http://lorempixel.com.br/300/150/?8"
-            alt=""
-            className="article-img"
-          />
+          <img src={casadasferramentas} alt="" className="article-img" />
           <div className="article-img-text-left">
-            <span className="text">Legenda da foto</span>
+            <span className="text-img-description">
+              Casa das ferramentas em 2010
+            </span>
           </div>
         </div>
-        <h4>
+        <span className="article-text">
+          O setor de ferramentas se desenvolveu de forma expressiva, motivando a
+          abertura em 19/04/2004, da "Casa das Ferramentas", uma loja totalmente
+          especializada nesse segmento.
+        </span>
+      </div>
+
+      <div className="article">
+        <span className="article-text">
+          O desenvolvimento do setor de construção, nos anos 80, motivou a
+          criação, na nova loja, de setor especializado em louças e acessórios
+          para banheiros e cozinhas, o "Bello Banho".
+        </span>
+        <div className="article-img-container">
+          <img src={lojabb} alt="" className="article-img" />
+          <div className="article-img-text-right">
+            <span className="text-img-description">Legenda da foto</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="article">
+        <div className="article-img-container">
+          <img src={equipe} alt="" className="article-img" />
+          <div className="article-img-text-left">
+            <span className="text-img-description">Legenda da foto</span>
+          </div>
+        </div>
+        <span className="article-text">
           Conta hoje com uma equipe de 110 pessoas cuidando de mais de 40.000
           itens diferentes das melhores marcas nacionais e importadas, além de
           desenvolver produtos especiais sob encomenda. Representantes da
           empresa participam das melhores feiras do setor, conhecendo
           lançamentos ainda antes de chegarem ao mercado.
-        </h4>
+        </span>
       </div>
 
       <div className="article">
-        <h4>
+        <span className="article-text">
           Desde a sua fundação, a Casa das Fechaduras investe na valorização e
           aperfeiçoamento dos seus funcionários, através de cursos, treinamentos
           e visitas às fábricas, proporcionando assum um atendimento cada vez
           mais personalizado aos seus clientes, seja o consumidor, sejam
           profissionais.
-        </h4>
+        </span>
         <div className="article-img-container">
-          <img
-            src="http://lorempixel.com.br/300/150/?9"
-            alt=""
-            className="article-img"
-          />
+          <img src={treinamento} alt="" className="article-img" />
           <div className="article-img-text-right">
-            <span className="text">Legenda da foto</span>
+            <span className="text-img-description">Legenda da foto</span>
           </div>
         </div>
       </div>
