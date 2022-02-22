@@ -17,7 +17,7 @@ export default function About() {
   return (
     <main id="main-about">
       <h2 className="section-title">Sobre nós</h2>
-
+      {/* ----------Introdução---------- */}
       <div className="intro-about">
         <img src={aboutintro} alt="" className="banner-about" />
         <h4>
@@ -29,6 +29,7 @@ export default function About() {
 
       <h2 className="section-title">Nossa história</h2>
 
+      {/* // ----------Artigos---------- */}
       <div className="article">
         <div className="article-img-container">
           <img src={img1956} alt="Ano de 1956" className="article-img" />
@@ -46,16 +47,15 @@ export default function About() {
         </span>
       </div>
 
-      <div className="article">
-        <span className="article-text">
-          Constrói sua loja na Rua Marechal Deodoro, 192, uma das principais
-          vias de acesso do Centro para os bairros da Zona Norte de município de
-          São Gonçalo.
-        </span>
+      <div className="centralizardivisoria">
+        <hr className="divisoria" />
+      </div>
+
+      <div className="article flex-row-reverse">
         <div className="article-img-container">
           <img
             src={amaralpeixoto}
-            alt="Amaral Peixoto 1970"
+            alt="Amaral Peixoto em 1970"
             className="article-img"
           />
           <div className="article-img-text-right">
@@ -64,13 +64,28 @@ export default function About() {
             </span>
           </div>
         </div>
+        <span className="article-text">
+          Constrói sua loja na Rua Marechal Deodoro, 192, uma das principais
+          vias de acesso do Centro para os bairros da Zona Norte de município de
+          São Gonçalo.
+        </span>
+      </div>
+
+      <div className="centralizardivisoria">
+        <hr className="divisoria" />
       </div>
 
       <div className="article">
         <div className="article-img-container">
-          <img src={casadasfechaduras2010} alt="" className="article-img" />
+          <img
+            src={casadasfechaduras2010}
+            alt="Casa das Fechaduras 2010"
+            className="article-img"
+          />
           <div className="article-img-text-left">
-            <span className="text-img-description">Legenda da foto</span>
+            <span className="text-img-description">
+              Primeira loja Casa das Fechaduras.
+            </span>
           </div>
         </div>
         <span className="article-text">
@@ -80,26 +95,40 @@ export default function About() {
         </span>
       </div>
 
-      <div className="article">
+      <div className="centralizardivisoria">
+        <hr className="divisoria" />
+      </div>
+
+      <div className="article flex-row-reverse">
+        <div className="article-img-container">
+          <img src={chaveirocf} alt="Chaveiro CF" className="article-img" />
+          <div className="article-img-text-right">
+            <span className="text-img-description">Chaveiro CF</span>
+          </div>
+        </div>
         <span className="article-text">
           A evolução do grupo é uma meta permanente: a prestação de serviços ao
           cliente gerou a criação do chaveiro próprio, o "ChaveiroCF", atendendo
           da simples cópia de chave até complexos sistemas de segurança, com a
           mesma qualidade já conhecida.
         </span>
-        <div className="article-img-container">
-          <img src={chaveirocf} alt="" className="article-img" />
-          <div className="article-img-text-right">
-            <span className="text-img-description">Legenda da foto</span>
-          </div>
-        </div>
+      </div>
+
+      <div className="centralizardivisoria">
+        <hr className="divisoria" />
       </div>
 
       <div className="article">
         <div className="article-img-container">
-          <img src={apertodemao} alt="" className="article-img" />
+          <img
+            src={apertodemao}
+            alt="Foto representando contrato fechado"
+            className="article-img"
+          />
           <div className="article-img-text-left">
-            <span className="text-img-description">Legenda da foto</span>
+            <span className="text-img-description">
+              O começo de uma grande história
+            </span>
           </div>
         </div>
         <span className="article-text">
@@ -109,31 +138,45 @@ export default function About() {
         </span>
       </div>
 
-      <div className="article">
+      <div className="centralizardivisoria">
+        <hr className="divisoria" />
+      </div>
+
+      <div className="article flex-row-reverse">
+        <div className="article-img-container">
+          <img
+            src={casadasfechaduras2010lojanova}
+            alt="Casa das Fechaduras Grande em 2010"
+            className="article-img"
+          />
+          <div className="article-img-text-right">
+            <span className="text-img-description">
+              Loja atual da Casa das Ferramentas
+            </span>
+          </div>
+        </div>
         <span className="article-text">
           Assim, em 12 de setembro de 1981, foi inaugurada a segunda loja, no nº
           168 da mesma rua, denominada "Casa das Fechaduras", com 1700 m2 de
           área construída e amplo espaço para a exposição da Já enorme variedade
           de produtos disponíveis.
         </span>
-        <div className="article-img-container">
-          <img
-            src={casadasfechaduras2010lojanova}
-            alt=""
-            className="article-img"
-          />
-          <div className="article-img-text-right">
-            <span className="text-img-description">Legenda da foto</span>
-          </div>
-        </div>
+      </div>
+
+      <div className="centralizardivisoria">
+        <hr className="divisoria" />
       </div>
 
       <div className="article">
         <div className="article-img-container">
-          <img src={casadasferramentas} alt="" className="article-img" />
+          <img
+            src={casadasferramentas}
+            alt="Casa das Ferramentas pequena"
+            className="article-img"
+          />
           <div className="article-img-text-left">
             <span className="text-img-description">
-              Casa das ferramentas em 2010
+              Primeira Casa das ferramentas.
             </span>
           </div>
         </div>
@@ -144,37 +187,69 @@ export default function About() {
         </span>
       </div>
 
-      <div className="article">
+      <div className="centralizardivisoria">
+        <hr className="divisoria" />
+      </div>
+
+      <div className="article flex-row-reverse">
+        <div className="article-img-container">
+          <img
+            src={lojabb}
+            alt="Loja Bello Banho retirada do site oficial"
+            className="article-img"
+          />
+          <div className="article-img-text-right">
+            <span className="text-img-description">Loja Bello Banho.</span>
+          </div>
+        </div>
         <span className="article-text">
           O desenvolvimento do setor de construção, nos anos 80, motivou a
           criação, na nova loja, de setor especializado em louças e acessórios
           para banheiros e cozinhas, o "Bello Banho".
         </span>
-        <div className="article-img-container">
-          <img src={lojabb} alt="" className="article-img" />
-          <div className="article-img-text-right">
-            <span className="text-img-description">Legenda da foto</span>
-          </div>
-        </div>
+      </div>
+
+      <div className="centralizardivisoria">
+        <hr className="divisoria" />
       </div>
 
       <div className="article">
         <div className="article-img-container">
-          <img src={equipe} alt="" className="article-img" />
+          <img
+            src={equipe}
+            alt="Foto representando a equipe"
+            className="article-img"
+          />
           <div className="article-img-text-left">
-            <span className="text-img-description">Legenda da foto</span>
+            <span className="text-img-description">
+              Uma equipe preparada pra você.
+            </span>
           </div>
         </div>
         <span className="article-text">
-          Conta hoje com uma equipe de 110 pessoas cuidando de mais de 40.000
-          itens diferentes das melhores marcas nacionais e importadas, além de
-          desenvolver produtos especiais sob encomenda. Representantes da
-          empresa participam das melhores feiras do setor, conhecendo
+          Conta hoje com uma equipe de mais 110 pessoas cuidando de mais de
+          40.000 itens diferentes das melhores marcas nacionais e importadas,
+          além de desenvolver produtos especiais sob encomenda. Representantes
+          da empresa participam das melhores feiras do setor, conhecendo
           lançamentos ainda antes de chegarem ao mercado.
         </span>
       </div>
 
-      <div className="article">
+      <div className="centralizardivisoria">
+        <hr className="divisoria" />
+      </div>
+
+      <div className="article flex-row-reverse">
+        <div className="article-img-container">
+          <img
+            src={treinamento}
+            alt="Foto meramente ilustrativa de reunião"
+            className="article-img"
+          />
+          <div className="article-img-text-right">
+            <span className="text-img-description">Progredindo sempre.</span>
+          </div>
+        </div>
         <span className="article-text">
           Desde a sua fundação, a Casa das Fechaduras investe na valorização e
           aperfeiçoamento dos seus funcionários, através de cursos, treinamentos
@@ -182,14 +257,8 @@ export default function About() {
           mais personalizado aos seus clientes, seja o consumidor, sejam
           profissionais.
         </span>
-        <div className="article-img-container">
-          <img src={treinamento} alt="" className="article-img" />
-          <div className="article-img-text-right">
-            <span className="text-img-description">Legenda da foto</span>
-          </div>
-        </div>
       </div>
-
+      {/* ----------Seção de Mapas---------- */}
       <div className="address-info">
         <h2 className="section-title">Endereços</h2>
 
