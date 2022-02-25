@@ -59,7 +59,7 @@ export default function Brands() {
           <img src={yaltres} alt="Yaltres" />
         </div>
         <div className="image-box">
-          <h3> E muito mais...</h3>
+          <h3>E outras</h3>
         </div>
       </div>
     </div>

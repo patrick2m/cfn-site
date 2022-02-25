@@ -1,6 +1,6 @@
 import './About.scss'
 
-import aboutintro from '../assets/img/about/about_1.png'
+import aboutintro from '../assets/img/about/about_1.jpg'
 import img1956 from '../assets/img/about/1956.jpg'
 import amaralpeixoto from '../assets/img/about/amaral-peixoto-1970.jpg'
 import casadasfechaduras2010 from '../assets/img/about/casadasfechaduras2010.png'
