@@ -1,10 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Header from './components/partials/Header'
+import Footer from './components/partials/Footer'
 import About from './components/About'
 import Home from './components/Home'
 import Support from './components/Support'
-import Footer from './components/partials/Footer'
+
 
 import './App.scss'
 

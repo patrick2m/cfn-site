@@ -59,10 +59,10 @@
       position: relative;
       width: 350px;
       &:hover .article-img-text-left {
-        width: 350px;
+        width: 100%;
       }
       &:hover .article-img-text-right {
-        width: 350px;
+        width: 100%;
         left: 0;
       }
       .article-img {
@@ -157,9 +157,18 @@
         width: 35%;
 
         .article-img {
-          // height: 100%;
           max-width: 300px;
           max-height: 250px;
+        }
+        .article-img-text-left {
+          .text-img-description {
+            font-size: 16px;
+          }
+        }
+        .article-img-text-right {
+          .text-img-description {
+            font-size: 16px;
+          }
         }
       }
     }
@@ -196,12 +205,12 @@
         }
         .article-img-text-left {
           .text-img-description {
-            font-size: 22px;
+            font-size: 25px;
           }
         }
         .article-img-text-right {
           .text-img-description {
-            font-size: 22px;
+            font-size: 25px;
           }
         }
       }
