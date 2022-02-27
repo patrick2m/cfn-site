@@ -35,7 +35,7 @@ export default function About() {
           <img src={img1956} alt="Ano de 1956" className="article-img" />
           <div className="article-img-text-left">
             <span className="text-img-description">
-              Centro de Niterói na década de 1950
+              Centro de Niterói em 1950.
             </span>
           </div>
         </div>
@@ -127,7 +127,7 @@ export default function About() {
           />
           <div className="article-img-text-left">
             <span className="text-img-description">
-              O começo de uma grande história
+              O começo de uma grande história.
             </span>
           </div>
         </div>
@@ -151,7 +151,7 @@ export default function About() {
           />
           <div className="article-img-text-right">
             <span className="text-img-description">
-              Loja atual da Casa das Ferramentas
+              Loja atual da Casa das Ferramentas.
             </span>
           </div>
         </div>
