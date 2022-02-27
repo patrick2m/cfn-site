@@ -6,6 +6,7 @@ import About from './components/About'
 import Home from './components/Home'
 import Support from './components/Support'
 
+
 import './App.scss'
 
 export default function App() {
