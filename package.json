@@ -2,7 +2,7 @@
   "name": "cfn-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://patrick2m.github.io/",
+  "homepage": "https://patrick2m.github.io/CFN-institutional-website",
   "dependencies": {
     "@react-google-maps/api": "^2.7.0",
     "@testing-library/jest-dom": "^5.16.1",
