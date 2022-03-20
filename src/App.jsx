@@ -10,16 +10,14 @@ import './App.scss'
 
 export default function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path="/CFN-institutional-website" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/support" element={<Support />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/CFN-institutional-website" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/support" element={<Support />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   )
 }
