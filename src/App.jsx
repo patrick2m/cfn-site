@@ -6,7 +6,6 @@ import About from './components/About'
 import Home from './components/Home'
 import Support from './components/Support'
 
-
 import './App.scss'
 
 export default function App() {
@@ -15,7 +14,7 @@ export default function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/CFN-institutional-website" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/support" element={<Support />} />
         </Routes>
