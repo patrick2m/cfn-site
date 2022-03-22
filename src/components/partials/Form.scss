@@ -1,11 +1,18 @@
 #form-container {
-  h1 {
-    text-align: center;
-    font-weight: bold;
-    margin: 30px 0;
-    border-left: 8px solid #06685e;
-    border-right: 8px solid #06685e;
-    padding-left: 14px;
-    padding-right: 14px;
+  #form-header {
+    .section-title {
+      text-align: center;
+      font-weight: bold;
+      margin: 30px 0;
+      border-left: 8px solid #06685e;
+      border-right: 8px solid #06685e;
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+  }
+  #form {
+    span {
+      padding-right: 30px;
+    }
   }
 }
