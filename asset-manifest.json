@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CFN-institutional-website/static/css/main.0bd0e619.css",
-    "main.js": "/CFN-institutional-website/static/js/main.45e9fe73.js",
+    "main.css": "/CFN-institutional-website/static/css/main.7429ad55.css",
+    "main.js": "/CFN-institutional-website/static/js/main.299efe67.js",
     "static/media/carousel_home_1.jpg": "/CFN-institutional-website/static/media/carousel_home_1.31c3b96eed14586c19c9.jpg",
     "static/media/fotogaleria7.JPG": "/CFN-institutional-website/static/media/fotogaleria7.bd147fa4380293a81eca.JPG",
     "static/media/fotogaleria9.JPG": "/CFN-institutional-website/static/media/fotogaleria9.0b714affdbc131172d2c.JPG",
+    "static/media/about_1.jpg": "/CFN-institutional-website/static/media/about_1.81b9acf0fbb1361820af.jpg",
     "static/media/fotogaleria2.JPG": "/CFN-institutional-website/static/media/fotogaleria2.cda5a9a5f84dfb93693f.JPG",
     "static/media/carousel_home_3.jpg": "/CFN-institutional-website/static/media/carousel_home_3.1e44c8d315590f1eb606.jpg",
     "static/media/fotogaleria4.JPG": "/CFN-institutional-website/static/media/fotogaleria4.a957f99adc1bba66bc1f.JPG",
     "static/media/fotogaleria6.JPG": "/CFN-institutional-website/static/media/fotogaleria6.62fbc28ef18285f4046d.JPG",
     "static/media/fotogaleria5.JPG": "/CFN-institutional-website/static/media/fotogaleria5.a7d4b882d95cc356f88d.JPG",
-    "static/media/about_1.jpg": "/CFN-institutional-website/static/media/about_1.e86b9fa947927ccbda72.jpg",
     "static/media/fotogaleria1.jpg": "/CFN-institutional-website/static/media/fotogaleria1.b85845eef15fc1803f00.jpg",
     "static/media/fotogaleria8.jpg": "/CFN-institutional-website/static/media/fotogaleria8.c37d090e80702d9a2ca9.jpg",
     "static/media/fotogaleria3.png": "/CFN-institutional-website/static/media/fotogaleria3.aeab13075901e49246a0.png",
@@ -25,10 +25,10 @@
     "static/media/arouca.png": "/CFN-institutional-website/static/media/arouca.2c0cb97a1f1107781a5f.png",
     "static/media/amaral-peixoto-1970.jpg": "/CFN-institutional-website/static/media/amaral-peixoto-1970.e4ad3b9d4583d1ee38da.jpg",
     "static/media/Card2.png": "/CFN-institutional-website/static/media/Card2.1da2470024abe683ec93.png",
-    "static/media/Card1.png": "/CFN-institutional-website/static/media/Card1.11b5d15747f14af9c2ee.png",
+    "static/media/Card1.png": "/CFN-institutional-website/static/media/Card1.bfdbabcf51cb7efa3e87.png",
     "static/media/aperto-de-mao.jpg": "/CFN-institutional-website/static/media/aperto-de-mao.bb2423551dac7391707d.jpg",
     "static/media/vouga.png": "/CFN-institutional-website/static/media/vouga.5700091a28245b9c7c36.png",
-    "static/media/Card3.png": "/CFN-institutional-website/static/media/Card3.7ddc3254efcbf03640ee.png",
+    "static/media/Card3.png": "/CFN-institutional-website/static/media/Card3.e0a8a6e5913a04d1b5dc.png",
     "static/media/1956.jpg": "/CFN-institutional-website/static/media/1956.10578449e1760ac36b42.jpg",
     "static/media/alianca.png": "/CFN-institutional-website/static/media/alianca.78f782580c80a89dd4f2.png",
     "static/media/tupai.png": "/CFN-institutional-website/static/media/tupai.11a2aa517b818b257c04.png",
@@ -40,11 +40,11 @@
     "static/media/haga.png": "/CFN-institutional-website/static/media/haga.c0fb2ade82bf29cf0054.png",
     "static/media/pado.png": "/CFN-institutional-website/static/media/pado.58a30f2e4142e93b8eaf.png",
     "index.html": "/CFN-institutional-website/index.html",
-    "main.0bd0e619.css.map": "/CFN-institutional-website/static/css/main.0bd0e619.css.map",
-    "main.45e9fe73.js.map": "/CFN-institutional-website/static/js/main.45e9fe73.js.map"
+    "main.7429ad55.css.map": "/CFN-institutional-website/static/css/main.7429ad55.css.map",
+    "main.299efe67.js.map": "/CFN-institutional-website/static/js/main.299efe67.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bd0e619.css",
-    "static/js/main.45e9fe73.js"
+    "static/css/main.7429ad55.css",
+    "static/js/main.299efe67.js"
   ]
 }
