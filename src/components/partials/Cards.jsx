@@ -8,7 +8,7 @@ import './Cards.scss'
 
 export default function Cards() {
   return (
-    <div id="card-container">
+    <section id="card-container">
       <Card className="card-class">
         <Card.Img className="card-img" variant="top" src={imgcard1} />
         <Card.Body>
@@ -20,7 +20,7 @@ export default function Cards() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Clique para saber mais +</small>
+          <small className="text-muted">Sua casa é sua fortaleza.</small>
         </Card.Footer>
       </Card>
 
@@ -33,7 +33,7 @@ export default function Cards() {
           <Card.Text className="card-text">Desde 1961 ao seu dispor.</Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Clique para saber mais +</small>
+          <small className="text-muted">Nossos clientes recomendam.</small>
         </Card.Footer>
       </Card>
 
@@ -48,9 +48,9 @@ export default function Cards() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Clique para saber mais +</small>
+          <small className="text-muted">Queremos você bem!</small>
         </Card.Footer>
       </Card>
-    </div>
+    </section>
   )
 }

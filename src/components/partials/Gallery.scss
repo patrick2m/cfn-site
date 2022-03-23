@@ -3,12 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-#body {
+#gallery-container {
   position: relative;
   margin: 0;
   padding: 0;
 
-  #image-gallery {
+  .image-gallery {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;

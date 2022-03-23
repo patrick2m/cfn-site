@@ -18,14 +18,14 @@ export default function About() {
     <main id="main-about">
       <h2 className="section-title">Sobre nós</h2>
       {/* ----------Introdução---------- */}
-      <div className="intro-about">
+      <section className="intro-about">
         <img src={aboutintro} alt="" className="banner-about" />
         <h4>
           Há mais de 60 anos no mercado, somos referência em qualidade e
           variedade de produtos. Somos uma casa cheia de tradição e boas
           histórias!
         </h4>
-      </div>
+      </section>
 
       <h2 className="section-title">Nossa história</h2>
 
