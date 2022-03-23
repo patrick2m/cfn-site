@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CFN-institutional-website/static/css/main.efcee8d3.css",
-    "main.js": "/CFN-institutional-website/static/js/main.d1e64c47.js",
+    "main.css": "/CFN-institutional-website/static/css/main.2008606f.css",
+    "main.js": "/CFN-institutional-website/static/js/main.84f7779d.js",
     "static/media/carousel_home_1.jpg": "/CFN-institutional-website/static/media/carousel_home_1.31c3b96eed14586c19c9.jpg",
     "static/media/fotogaleria7.JPG": "/CFN-institutional-website/static/media/fotogaleria7.bd147fa4380293a81eca.JPG",
     "static/media/fotogaleria9.JPG": "/CFN-institutional-website/static/media/fotogaleria9.0b714affdbc131172d2c.JPG",
@@ -40,11 +40,11 @@
     "static/media/haga.png": "/CFN-institutional-website/static/media/haga.c0fb2ade82bf29cf0054.png",
     "static/media/pado.png": "/CFN-institutional-website/static/media/pado.58a30f2e4142e93b8eaf.png",
     "index.html": "/CFN-institutional-website/index.html",
-    "main.efcee8d3.css.map": "/CFN-institutional-website/static/css/main.efcee8d3.css.map",
-    "main.d1e64c47.js.map": "/CFN-institutional-website/static/js/main.d1e64c47.js.map"
+    "main.2008606f.css.map": "/CFN-institutional-website/static/css/main.2008606f.css.map",
+    "main.84f7779d.js.map": "/CFN-institutional-website/static/js/main.84f7779d.js.map"
   },
   "entrypoints": [
-    "static/css/main.efcee8d3.css",
-    "static/js/main.d1e64c47.js"
+    "static/css/main.2008606f.css",
+    "static/js/main.84f7779d.js"
   ]
 }
