@@ -8,12 +8,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 // @media (max-width: 1120px) {
 
 // }
 
-// @media (max-width: 830px) {
-
-// }
+@media (max-width: 830px) {
+  #main-footer {
+    h6 {
+      font-size: 13px;
+    }
+  }
+}

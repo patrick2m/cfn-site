@@ -176,6 +176,11 @@
 
 @media (max-width: 1120px) {
   #main-about {
+    .intro-about {
+      h4 {
+        font-size: 15px;
+      }
+    }
     .article {
       flex-direction: column !important;
       justify-content: baseline;
@@ -189,27 +194,27 @@
       }
       .article-img-container {
         position: relative;
-        width: 480px;
+        width: 300px;
         &:hover .article-img-text-left {
-          width: 480px;
+          width: 300px;
         }
         &:hover .article-img-text-right {
-          width: 480px;
+          width: 300px;
           left: 0;
         }
 
         .article-img {
-          max-width: 800px;
-          max-height: 500px;
+          max-width: 300px;
+          max-height: 250px;
         }
         .article-img-text-left {
           .text-img-description {
-            font-size: 25px;
+            font-size: 15px;
           }
         }
         .article-img-text-right {
           .text-img-description {
-            font-size: 25px;
+            font-size: 15px;
           }
         }
       }
