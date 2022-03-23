@@ -1,6 +1,9 @@
 Website de Loja real, Casa das Fechaduras de Niterói, criado enquanto livre no estágio de suporte técnico(Central de Processamento de Dados) da empresa, com o intuíto de aprender e praticar GIT, HTML, CSS, Javascript e ReactJs.
 Feito entre Janeiro e Março de 2022 até o momento.
 
+Real Store Website, Named as Casa das Fechaduras de Niterói, created while technical support intern (Data Processing Center) of the company, with the aim of learning and practicing GIT, HTML, CSS, Javascript and ReactJs.
+Done between January and March 2022.
+
 ## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### `npm start`
