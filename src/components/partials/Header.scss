@@ -98,11 +98,7 @@
   }
 }
 
-// @media (max-width: 1120px) {
-
-// }
-
-@media (max-width: 860px) {
+@media (max-width: 922px) {
   #main-header {
     #menu-logo {
       .big-logo {
@@ -124,6 +120,7 @@
     }
 
     #contato {
+      display: none;
       width: 80px;
       a {
         padding-left: 20px;

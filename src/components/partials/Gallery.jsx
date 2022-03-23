@@ -38,7 +38,7 @@ export default function Gallery() {
         <div className="image-box">
           <img src={foto8} alt="foto padrão" />
         </div>
-        <div className="image-box">
+        <div className="image-box desappear">
           <img src={foto9} alt="foto padrão" />
         </div>
       </div>
