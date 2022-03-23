@@ -60,15 +60,16 @@
     .carousel-item {
       height: 200px;
       .main-title {
-        font-size: 20px;
+        font-size: 15px;
       }
       .carousel-description {
+        display: none;
         font-size: 12px;
       }
     }
 
     .carousel-caption {
-      height: 65px;
+      height: 40px;
     }
 
     .carousel-caption {

@@ -12,27 +12,18 @@ export default function Forms() {
   console.log(errors)
 
   return (
-    <div id="form-container">
+    <section id="form-container">
       <div id="form-header">
         <h1 className="section-title">Contate-nos</h1>
         <h2>Página em produção!</h2>
       </div>
       <form id="form" onSubmit={handleSubmit(onSubmit)}>
         <div>
-          <span>Digite seu primeiro nome:</span>
+          <span>Digite seu nome:</span>
           <input
             type="text"
-            placeholder="Nome"
+            placeholder="Nome completo"
             {...register('First name', { required: true, maxLength: 80 })}
-          />
-        </div>
-
-        <div>
-          <span>Digite seu sobrenome:</span>
-          <input
-            type="text"
-            placeholder="Sobrenome"
-            {...register('Last name', { required: true, maxLength: 100 })}
           />
         </div>
 
@@ -57,11 +48,23 @@ export default function Forms() {
             })}
           />
         </div>
+
         <div>
-          <span>Estado civil</span>
+          <span>Digite seu comentário:</span>
+          <input
+            type="text"
+            placeholder="Comentário"
+            {...register('Last name', { required: true, maxLength: 100 })}
+          />
+        </div>
+
+        <div>
+          <span>Assunto:</span>
           <select {...register('Civil status', { required: true })}>
-            <option value="Single">Solteiro</option>
-            <option value="Married">Casado</option>
+            <option value="Elogioi">Elogio</option>
+            <option value="Reclamacao">Reclamação</option>
+            <option value="Sugestao">Sugestão</option>
+            <option value="ComentárioLivre">Comentário Livre</option>
           </select>
         </div>
 
@@ -85,6 +88,6 @@ export default function Forms() {
 
         <input type="submit" />
       </form>
-    </div>
+    </section>
   )
 }

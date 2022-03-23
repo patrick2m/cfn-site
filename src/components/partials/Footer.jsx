@@ -4,7 +4,11 @@ export default function Footer() {
   return (
     <footer id="main-footer">
       <h6>
-        &copy; 2022 Grupo Casa das Fechaduras - Todos os Direitos Reservados
+        &copy; Casa das Fechaduras 2022 - Todos os Direitos Reservados - Em
+        desenvolvimento por{' '}
+        <a href="https://github.com/patrick2m" target="_blank" rel="noreferrer">
+          Patrick Machado
+        </a>
       </h6>
 
       {/*         <img src={relogio} alt="Horários"/>
