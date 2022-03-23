@@ -1,10 +1,7 @@
-# Getting Started with Create React App
+Website de Loja real, Casa das Fechaduras de Niterói, criado enquanto livre no estágio de suporte técnico(Central de Processamento de Dados) da empresa, com o intuíto de aprender e praticar GIT, HTML, CSS, Javascript e ReactJs.
+Feito entre Janeiro e Março de 2022 até o momento.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### `npm start`
 
@@ -12,7 +9,6 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm test`
 
