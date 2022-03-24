@@ -5,7 +5,7 @@ export default function Footer() {
     <footer id="main-footer">
       <h6>
         &copy; Casa das Fechaduras 2022 - Todos os Direitos Reservados - Em
-        desenvolvimento por
+        desenvolvimento por{' '}
         <a href="https://github.com/patrick2m" target="_blank" rel="noreferrer">
           Patrick Machado
         </a>
