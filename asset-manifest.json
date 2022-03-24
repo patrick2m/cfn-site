@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CFN-institutional-website/static/css/main.c07bc44e.css",
-    "main.js": "/CFN-institutional-website/static/js/main.662c3184.js",
+    "main.js": "/CFN-institutional-website/static/js/main.f97f6a2d.js",
     "static/media/carousel_home_1.jpg": "/CFN-institutional-website/static/media/carousel_home_1.31c3b96eed14586c19c9.jpg",
     "static/media/fotogaleria7.JPG": "/CFN-institutional-website/static/media/fotogaleria7.bd147fa4380293a81eca.JPG",
     "static/media/fotogaleria9.JPG": "/CFN-institutional-website/static/media/fotogaleria9.0b714affdbc131172d2c.JPG",
@@ -41,10 +41,10 @@
     "static/media/pado.png": "/CFN-institutional-website/static/media/pado.58a30f2e4142e93b8eaf.png",
     "index.html": "/CFN-institutional-website/index.html",
     "main.c07bc44e.css.map": "/CFN-institutional-website/static/css/main.c07bc44e.css.map",
-    "main.662c3184.js.map": "/CFN-institutional-website/static/js/main.662c3184.js.map"
+    "main.f97f6a2d.js.map": "/CFN-institutional-website/static/js/main.f97f6a2d.js.map"
   },
   "entrypoints": [
     "static/css/main.c07bc44e.css",
-    "static/js/main.662c3184.js"
+    "static/js/main.f97f6a2d.js"
   ]
 }
