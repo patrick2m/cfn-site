@@ -15,29 +15,39 @@ export default function Forms() {
     <section id="form-container">
       <div id="form-header">
         <h1 className="section-title">Contate-nos</h1>
-        <h2>Página em produção!</h2>
       </div>
-      <form id="form" onSubmit={handleSubmit(onSubmit)}>
-        <div>
-          <span>Digite seu nome:</span>
+      <form id="form-body" onSubmit={handleSubmit(onSubmit)}>
+        <div className="contact-info">
+          <div className="contact-info-place">
+            <h3 className="contact-info-title">
+              Casa das Fechaduras de Niterói
+            </h3>
+            <h5 className="contact-info-number">Telefone: (XX) XXXX-XXXX</h5>
+          </div>
+          <div className="contact-info-place">
+            <h3 className="contact-info-title">
+              Casa das Fechaduras de São Gonçalo
+            </h3>
+            <h5 className="contact-info-number">Telefone: (XX) XXXX-XXXX</h5>
+          </div>
+          <div className="contact-info-opening-hours">
+            <h3>Horário de funcionamento:</h3>
+            <h4>Segunda à sexta : 8h às 18h</h4>
+            <h4>Sábado : 9h às 13h</h4>
+          </div>
+        </div>
+        <div className="vertical-line-contact-page"></div>
+        <div className="contact-form">
           <input
             type="text"
             placeholder="Nome completo"
             {...register('First name', { required: true, maxLength: 80 })}
           />
-        </div>
-
-        <div>
-          <span>Digite seu Email:</span>
           <input
             type="text"
             placeholder="Email"
             {...register('Email', { required: true, pattern: /^\S+@\S+$/i })}
           />
-        </div>
-
-        <div>
-          <span>Digite seu Telefone:</span>
           <input
             type="tel"
             placeholder="(XX)XXXXXXXXX"
@@ -47,46 +57,30 @@ export default function Forms() {
               maxLength: 12
             })}
           />
-        </div>
-
-        <div>
-          <span>Digite seu comentário:</span>
+          <select {...register('tipo de comentario', { required: true })}>
+            <option value="tipo">Selecione o tipo de comentário</option>
+            <option value="Elogio">Elogio</option>
+            <option value="Reclamacao">Reclamação</option>
+            <option value="Sugestao">Sugestão</option>
+            <option value="ComentárioLivre">Comentário Livre</option>
+          </select>
           <input
             type="text"
             placeholder="Comentário"
             {...register('Last name', { required: true, maxLength: 100 })}
           />
-        </div>
-
-        <div>
-          <span>Assunto:</span>
-          <select {...register('Civil status', { required: true })}>
-            <option value="Elogioi">Elogio</option>
-            <option value="Reclamacao">Reclamação</option>
-            <option value="Sugestao">Sugestão</option>
-            <option value="ComentárioLivre">Comentário Livre</option>
-          </select>
-        </div>
-
-        <div>
-          <span>Já é cliente?</span>
-        </div>
-        <div>
-          <span>Sim:</span>
           <input
             {...register('Cliente?', { required: true })}
             type="radio"
             value="Yes"
           />
-          <span>Não:</span>
           <input
             {...register('Cliente?', { required: true })}
             type="radio"
             value="No"
           />
+          <input type="submit" />
         </div>
-
-        <input type="submit" />
       </form>
     </section>
   )
