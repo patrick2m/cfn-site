@@ -29,7 +29,7 @@ export default function About() {
 
       <h2 className="section-title">Nossa história</h2>
 
-      {/* // ----------Artigos---------- */}
+      {/*  ----------Artigos---------- */}
       <div className="article">
         <div className="article-img-container">
           <img src={img1956} alt="Ano de 1956" className="article-img" />
@@ -270,7 +270,7 @@ export default function About() {
             <MapBox
               latitude={-22.889737133069602}
               longitude={-43.119811196483795}
-              zoom={15}
+              zoom={14}
             />
           </div>
 
@@ -281,7 +281,7 @@ export default function About() {
             <MapBox
               latitude={-22.826029565201875}
               longitude={-43.05057118452541}
-              zoom={15}
+              zoom={14}
             />
           </div>
         </div>

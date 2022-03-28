@@ -1,5 +1,12 @@
 #form-container {
   #form-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 5vh;
+
     .section-title {
       text-align: center;
       font-weight: bold;
@@ -10,9 +17,32 @@
       padding-right: 14px;
     }
   }
-  #form {
-    span {
-      padding-right: 30px;
+  #form-body {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 800px;
+
+    .contact-info {
+      width: 90%;
+      .contact-info-place {
+        .contact-info-title {
+          color: #016ac5;
+          font-weight: 500;
+        }
+      }
+    }
+
+    .vertical-line-contact-page {
+      height: 400px;
+      border-right: 5px solid #256fac;
+    }
+
+    .contact-form {
+      width: 90%;
+      display: flex;
+      justify-content: first baseline;
+      flex-direction: column;
     }
   }
 }

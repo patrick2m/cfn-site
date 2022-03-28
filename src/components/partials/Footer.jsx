@@ -6,7 +6,11 @@ export default function Footer() {
       <h6>
         &copy; Casa das Fechaduras 2022 - Todos os Direitos Reservados - Em
         desenvolvimento por{' '}
-        <a href="https://github.com/patrick2m" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.linkedin.com/in/patrick2m/"
+          target="_blank"
+          rel="noreferrer"
+        >
           Patrick Machado
         </a>
       </h6>
