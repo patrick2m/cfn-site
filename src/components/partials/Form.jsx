@@ -25,59 +25,52 @@ export default function Forms() {
             <h5 className="contact-info-number">Telefone: (XX) XXXX-XXXX</h5>
           </div>
           <div className="contact-info-place">
-            <h3 className="contact-info-title">
-              Casa das Fechaduras de São Gonçalo
-            </h3>
+            <h3>Casa das Fechaduras de São Gonçalo</h3>
             <h5 className="contact-info-number">Telefone: (XX) XXXX-XXXX</h5>
           </div>
           <div className="contact-info-opening-hours">
             <h3>Horário de funcionamento:</h3>
-            <h4>Segunda à sexta : 8h às 18h</h4>
-            <h4>Sábado : 9h às 13h</h4>
+            <h5>Segunda à sexta : 8h às 18h</h5>
+            <h5>Sábado : 9h às 13h</h5>
           </div>
         </div>
         <div className="vertical-line-contact-page"></div>
         <div className="contact-form">
           <input
             type="text"
-            placeholder="Nome completo"
-            {...register('First name', { required: true, maxLength: 80 })}
+            placeholder=" Nome completo"
+            {...register('Name', { required: true, maxLength: 80 })}
           />
           <input
             type="text"
-            placeholder="Email"
-            {...register('Email', { required: true, pattern: /^\S+@\S+$/i })}
+            placeholder=" Email"
+            {...register('Email', {
+              required: true,
+              maxLength: 60,
+              pattern: /^\S+@\S+$/i
+            })}
           />
           <input
             type="tel"
-            placeholder="(XX)XXXXXXXXX"
+            placeholder=" Número de telefone"
             {...register('Mobile number', {
               required: true,
-              minLength: 6,
-              maxLength: 12
+              minLength: 8,
+              maxLength: 14
             })}
           />
           <select {...register('tipo de comentario', { required: true })}>
-            <option value="tipo">Selecione o tipo de comentário</option>
+            <option value="tipo"> Selecione o tipo de comentário</option>
             <option value="Elogio">Elogio</option>
+            <option value="Proposta">Proposta</option>
             <option value="Reclamacao">Reclamação</option>
             <option value="Sugestao">Sugestão</option>
-            <option value="ComentárioLivre">Comentário Livre</option>
           </select>
           <input
+            className="comment"
             type="text"
-            placeholder="Comentário"
-            {...register('Last name', { required: true, maxLength: 100 })}
-          />
-          <input
-            {...register('Cliente?', { required: true })}
-            type="radio"
-            value="Yes"
-          />
-          <input
-            {...register('Cliente?', { required: true })}
-            type="radio"
-            value="No"
+            placeholder=" Comentário"
+            {...register('Comment', { required: true, maxLength: 200 })}
           />
           <input type="submit" />
         </div>
