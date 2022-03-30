@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/CFN-institutional-website/static/css/main.aacf64fd.css",
-    "main.js": "/CFN-institutional-website/static/js/main.0652377b.js",
+    "main.css": "/CFN-institutional-website/static/css/main.4df4df77.css",
+    "main.js": "/CFN-institutional-website/static/js/main.9dbfb9e7.js",
     "static/media/carousel_home_1.jpg": "/CFN-institutional-website/static/media/carousel_home_1.31c3b96eed14586c19c9.jpg",
     "static/media/fotogaleria7.JPG": "/CFN-institutional-website/static/media/fotogaleria7.bd147fa4380293a81eca.JPG",
     "static/media/fotogaleria9.JPG": "/CFN-institutional-website/static/media/fotogaleria9.0b714affdbc131172d2c.JPG",
-    "static/media/about_1.jpg": "/CFN-institutional-website/static/media/about_1.81b9acf0fbb1361820af.jpg",
     "static/media/fotogaleria2.JPG": "/CFN-institutional-website/static/media/fotogaleria2.cda5a9a5f84dfb93693f.JPG",
     "static/media/carousel_home_3.jpg": "/CFN-institutional-website/static/media/carousel_home_3.1e44c8d315590f1eb606.jpg",
     "static/media/fotogaleria4.JPG": "/CFN-institutional-website/static/media/fotogaleria4.a957f99adc1bba66bc1f.JPG",
@@ -40,11 +39,11 @@
     "static/media/haga.png": "/CFN-institutional-website/static/media/haga.c0fb2ade82bf29cf0054.png",
     "static/media/pado.png": "/CFN-institutional-website/static/media/pado.58a30f2e4142e93b8eaf.png",
     "index.html": "/CFN-institutional-website/index.html",
-    "main.aacf64fd.css.map": "/CFN-institutional-website/static/css/main.aacf64fd.css.map",
-    "main.0652377b.js.map": "/CFN-institutional-website/static/js/main.0652377b.js.map"
+    "main.4df4df77.css.map": "/CFN-institutional-website/static/css/main.4df4df77.css.map",
+    "main.9dbfb9e7.js.map": "/CFN-institutional-website/static/js/main.9dbfb9e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.aacf64fd.css",
-    "static/js/main.0652377b.js"
+    "static/css/main.4df4df77.css",
+    "static/js/main.9dbfb9e7.js"
   ]
 }
