@@ -1,6 +1,5 @@
 import './About.scss'
 
-import aboutintro from '../assets/img/about/about_1.jpg'
 import img1956 from '../assets/img/about/1956.jpg'
 import amaralpeixoto from '../assets/img/about/amaral-peixoto-1970.jpg'
 import casadasfechaduras2010 from '../assets/img/about/casadasfechaduras2010.png'
@@ -19,7 +18,13 @@ export default function About() {
       <h2 className="section-title">Sobre nós</h2>
       {/* ----------Introdução---------- */}
       <section className="intro-about">
-        <img src={aboutintro} alt="" className="banner-about" />
+        <div className="banner-about">
+          <h1>Há mais de 60 anos com o que há de mais moderno e seguro!</h1>
+          <p>
+            ESPECIALIZADA EM FECHADURAS, FERRAGENS, MAÇANETAS, PUXADORES E
+            ACESSÓRIOS
+          </p>
+        </div>
         <h4>
           Há mais de 60 anos no mercado, somos referência em qualidade e
           variedade de produtos. Somos uma casa cheia de tradição e boas
