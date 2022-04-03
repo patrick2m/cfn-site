@@ -69,3 +69,32 @@
     }
   }
 }
+
+@media (max-width: 830px) {
+  #form-container {
+    #form-header {
+      width: 100%;
+    }
+    #form-body {
+      flex-direction: column;
+      width: 350px;
+
+      .contact-info {
+        width: 400px;
+        padding-left: 20px;
+      }
+
+      .vertical-line-contact-page {
+        display: none;
+      }
+
+      .contact-form {
+        padding-top: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        flex-direction: column;
+      }
+    }
+  }
+}
