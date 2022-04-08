@@ -17,6 +17,7 @@
       padding-right: 14px;
     }
   }
+
   #form-body {
     display: flex;
     justify-content: space-around;
@@ -77,11 +78,13 @@
     }
     #form-body {
       flex-direction: column;
-      width: 350px;
+      width: 80%;
+      align-items: center;
+      margin: 0 auto;
 
       .contact-info {
-        width: 400px;
-        padding-left: 20px;
+        width: 100%;
+        padding: 0;
       }
 
       .vertical-line-contact-page {
@@ -90,10 +93,17 @@
 
       .contact-form {
         padding-top: 70px;
-        padding-left: 20px;
-        padding-right: 20px;
-        width: 100%;
+        padding: 50px 0;
+        width: 320px;
         flex-direction: column;
+      }
+      input {
+        border-radius: 08px;
+        border: 1px solid #333;
+      }
+      select {
+        border-radius: 08px;
+        border: 1px solid #333;
       }
     }
   }
