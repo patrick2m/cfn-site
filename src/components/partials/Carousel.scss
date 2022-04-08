@@ -2,6 +2,9 @@
   .carousel-inner {
     height: 93vh;
   }
+  .carousel-indicators {
+    z-index: 2 !important;
+  }
 
   .carousel-item {
     height: 93vh;
