@@ -1,25 +1,25 @@
 #intro-anim {
   animation-name: introbg;
-  animation-duration: 5s;
+  animation-duration: 7s;
   animation-direction: normal;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
-  position: absolute;
-  z-index: 2;
+  position: fixed;
+  z-index: 5;
   width: 100%;
   height: 100vh;
   background-color: #256fac;
   display: flex;
   justify-self: center;
   align-items: center;
+  pointer-events: none;
   .locker-div {
     margin: 0 auto;
     .locker-img {
       animation: introAnim;
-      animation-duration: 4s;
+      animation-duration: 7s;
       animation-timing-function: ease-out;
       animation-fill-mode: forwards;
-      // animationease 0s normal none;
       height: auto;
     }
   }
@@ -27,27 +27,25 @@
 
 @keyframes introAnim {
   0.0% {
-    opacity: 100;
-  }
-  30% {
-    transform: rotate(360deg);
-    opacity: 100;
-  }
-  35% {
-    transform: rotate(360deg) scale(0.8);
-    opacity: 100;
-  }
-  40% {
-    transform: rotate(360deg) scale(1.2);
-    opacity: 100;
-  }
-  45% {
-    transform: rotate(360deg) scale(1) translate(0px, 0px);
-    opacity: 100;
-  }
-  65% {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
     opacity: 0;
+  }
+  39.7% {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  56.3% {
+    transform: rotate(360deg) scale(1);
+  }
+  58.3% {
+    transform: rotate(360deg) scale(0.8);
+  }
+  60.1% {
+    transform: rotate(360deg) scale(1.2);
+  }
+  62.2% {
+    transform: rotate(360deg) scale(1);
+    opacity: 1;
   }
   100% {
     transform: rotate(360deg);
@@ -71,7 +69,7 @@
     opacity: 100;
   }
   66.3% {
-    opacity: 0;
+    opacity: 100;
   }
   100% {
     opacity: 0;
