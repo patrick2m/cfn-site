@@ -35,6 +35,7 @@ export default function Forms() {
           </div>
         </div>
         <div className="vertical-line-contact-page"></div>
+        <hr />
         <div className="contact-form">
           <input
             type="text"
