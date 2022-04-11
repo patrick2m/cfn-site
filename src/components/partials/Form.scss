@@ -56,13 +56,17 @@
       flex-direction: column;
 
       input {
-        padding: 10px 0;
+        padding: 10px 10px;
         margin-bottom: 20px;
+        border-radius: 08px;
+        border: 1px solid #333;
       }
 
       select {
-        padding: 10px 0;
+        padding: 10px 4.5px;
         margin-bottom: 20px;
+        border-radius: 08px;
+        border: 1px solid #333;
       }
       .comment {
         padding-bottom: 80px;
