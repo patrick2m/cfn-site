@@ -3,7 +3,7 @@ import './Footer.scss'
 export default function Footer() {
   return (
     <footer id="main-footer">
-      <h6>
+      <h1>
         &copy; Casa das Fechaduras 2022 - Todos os Direitos Reservados - Em
         desenvolvimento por{' '}
         <a
@@ -13,7 +13,7 @@ export default function Footer() {
         >
           Patrick Machado
         </a>
-      </h6>
+      </h1>
     </footer>
   )
 }

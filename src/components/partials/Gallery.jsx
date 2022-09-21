@@ -1,14 +1,14 @@
 import './Gallery.scss'
 
-import foto1 from '../../assets/img/gallery/fotogaleria1.jpg'
-import foto2 from '../../assets/img/gallery/fotogaleria2.JPG'
-import foto3 from '../../assets/img/gallery/fotogaleria3.png'
-import foto4 from '../../assets/img/gallery/fotogaleria6.JPG'
-import foto5 from '../../assets/img/gallery/fotogaleria4.JPG'
-import foto6 from '../../assets/img/gallery/fotogaleria5.JPG'
-import foto7 from '../../assets/img/gallery/fotogaleria7.JPG'
-import foto8 from '../../assets/img/gallery/fotogaleria8.jpg'
-import foto9 from '../../assets/img/gallery/fotogaleria9.JPG'
+import foto1 from '../../assets/img/gallery/fotogaleria1.webp'
+import foto2 from '../../assets/img/gallery/fotogaleria2.webp'
+import foto3 from '../../assets/img/gallery/fotogaleria3.webp'
+import foto4 from '../../assets/img/gallery/fotogaleria6.webp'
+import foto5 from '../../assets/img/gallery/fotogaleria4.webp'
+import foto6 from '../../assets/img/gallery/fotogaleria5.webp'
+import foto7 from '../../assets/img/gallery/fotogaleria7.webp'
+import foto8 from '../../assets/img/gallery/fotogaleria8.webp'
+import foto9 from '../../assets/img/gallery/fotogaleria9.webp'
 
 export default function Gallery() {
   return (

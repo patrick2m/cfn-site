@@ -10,7 +10,7 @@ export default function Cards() {
   return (
     <section id="card-container">
       <Card className="card-class">
-        <Card.Img className="card-img" variant="top" src={imgcard1} />
+        <Card.Img className="card-img" variant="top" alt="Car1" src={imgcard1} />
         <Card.Body>
           <Card.Title className="card-title">
             Tecnologia de ponta para sua segurança.
@@ -25,7 +25,7 @@ export default function Cards() {
       </Card>
 
       <Card className="card-class">
-        <Card.Img className="card-img" variant="top" src={imgcard3} />
+        <Card.Img className="card-img" variant="top" alt="Card2" src={imgcard3} />
         <Card.Body>
           <Card.Title className="card-title">
             Fazendo história no ramo a decadas.
@@ -38,7 +38,7 @@ export default function Cards() {
       </Card>
 
       <Card className="card-class">
-        <Card.Img className="card-img" variant="top" src={imgcard2} />
+        <Card.Img className="card-img" variant="top" alt="Card3" src={imgcard2} />
         <Card.Body>
           <Card.Title className="card-title">
             Prezamos pelo seu bem estar e conforto.

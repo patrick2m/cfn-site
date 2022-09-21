@@ -22,11 +22,11 @@ export default function Forms() {
             <h3 className="contact-info-title">
               Casa das Fechaduras de Niterói
             </h3>
-            <h5 className="contact-info-number">Telefone: (XX) XXXX-XXXX</h5>
+            <h5 className="contact-info-number">Telefone: (21) 3527-3000</h5>
           </div>
           <div className="contact-info-place">
             <h3>Casa das Fechaduras de São Gonçalo</h3>
-            <h5 className="contact-info-number">Telefone: (XX) XXXX-XXXX</h5>
+            <h5 className="contact-info-number">Telefone: (21) 2713-6161</h5>
           </div>
           <div className="contact-info-opening-hours">
             <h3>Horário de funcionamento:</h3>

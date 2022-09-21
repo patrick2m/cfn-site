@@ -113,7 +113,7 @@ export default function Brands() {
           </a>
         </div>
         <div className="image-box">
-          <h3>E outras</h3>
+          <h2>E outras</h2>
         </div>
       </div>
     </section>
