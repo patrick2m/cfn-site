@@ -32,13 +32,13 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link className="menu-link" to="/About">
+              <Link className="menu-link" to="/Sobre">
                 Sobre
               </Link>
             </li>
             <li>
-              <Link className="menu-link" to="/Support">
-                Contate-nos
+              <Link className="menu-link" to="/Contato">
+                Contato
               </Link>
             </li>
           </ul>

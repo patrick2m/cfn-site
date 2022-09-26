@@ -10,7 +10,6 @@ import casadasfechaduras2010lojanova from '../assets/img/about/casadasfechaduras
 import lojabb from '../assets/img/about/lojabb.webp'
 import equipe from '../assets/img/about/equipe.webp'
 import treinamento from '../assets/img/about/treinamento.webp'
-import MapBox from './partials/MapBox'
 
 export default function About() {
   return (
@@ -272,22 +271,13 @@ export default function About() {
             <h4 className="map-name">Unidade Niterói</h4>
             <p>Rua Marechal Deodoro, Nº 168, Centro - Niterói/RJ</p>
             <p>24030-060</p>
-            <MapBox
-              latitude={-22.889737133069602}
-              longitude={-43.119811196483795}
-              zoom={14}
-            />
           </div>
 
           <div className="map">
             <h4 className="map-name">Unidade São Gonçalo</h4>
             <p>Rua Dr. Felíciano Sodré, Nº 57, Centro - São Gonçalo</p>
             <p>24440-440</p>
-            <MapBox
-              latitude={-22.826029565201875}
-              longitude={-43.05057118452541}
-              zoom={14}
-            />
+          
           </div>
         </div>
       </div>
