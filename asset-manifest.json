@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CFN-institutional-website/static/css/main.3edcc1ac.css",
-    "main.js": "/CFN-institutional-website/static/js/main.6dd7b4e0.js",
+    "main.js": "/CFN-institutional-website/static/js/main.da2d5c0a.js",
     "static/media/carousel_home_1.jpg": "/CFN-institutional-website/static/media/carousel_home_1.536d34255290202de5ac.jpg",
     "static/media/fotogaleria9.webp": "/CFN-institutional-website/static/media/fotogaleria9.5f931651453dc693375b.webp",
     "static/media/fotogaleria2.webp": "/CFN-institutional-website/static/media/fotogaleria2.f6d72eb9a72e7f9a3ad3.webp",
@@ -26,7 +26,7 @@
     "static/media/casadasfechaduras2010.webp": "/CFN-institutional-website/static/media/casadasfechaduras2010.71aef992a4cc22584d83.webp",
     "static/media/tupai.png": "/CFN-institutional-website/static/media/tupai.11a2aa517b818b257c04.png",
     "static/media/yaltres.png": "/CFN-institutional-website/static/media/yaltres.1d18c5a173cd39458ce6.png",
-    "static/media/logoCFN.svg": "/CFN-institutional-website/static/media/logoCFN.aed36d0ae6a82c2c964a8cc6ad7bbef9.svg",
+    "static/media/logoCFN.svg": "/CFN-institutional-website/static/media/logoCFN.0280a03e321021b7928ad6178f9c3cc6.svg",
     "static/media/casadasferramentas2010.webp": "/CFN-institutional-website/static/media/casadasferramentas2010.4e96b52e74520d0063ce.webp",
     "static/media/amaral-peixoto-1970.webp": "/CFN-institutional-website/static/media/amaral-peixoto-1970.595d52f1b195d5f03a49.webp",
     "static/media/chaveirocf.webp": "/CFN-institutional-website/static/media/chaveirocf.e7b0d75a345b2610a488.webp",
@@ -35,15 +35,15 @@
     "static/media/equipe.webp": "/CFN-institutional-website/static/media/equipe.19a38ee97ea08bf99d9d.webp",
     "static/media/soprano.png": "/CFN-institutional-website/static/media/soprano.a7e1bb0fed27c67c9ec3.png",
     "static/media/treinamento.webp": "/CFN-institutional-website/static/media/treinamento.c352c117fcd8e7b9d87d.webp",
-    "static/media/logoCFNmin.svg": "/CFN-institutional-website/static/media/logoCFNmin.553621357a7f66191c4ec02b66a4066f.svg",
+    "static/media/logoCFNmin.svg": "/CFN-institutional-website/static/media/logoCFNmin.50c631170958fdf98ee1f638e2066ab0.svg",
     "static/media/haga.png": "/CFN-institutional-website/static/media/haga.c0fb2ade82bf29cf0054.png",
     "static/media/pado.png": "/CFN-institutional-website/static/media/pado.58a30f2e4142e93b8eaf.png",
     "index.html": "/CFN-institutional-website/index.html",
     "main.3edcc1ac.css.map": "/CFN-institutional-website/static/css/main.3edcc1ac.css.map",
-    "main.6dd7b4e0.js.map": "/CFN-institutional-website/static/js/main.6dd7b4e0.js.map"
+    "main.da2d5c0a.js.map": "/CFN-institutional-website/static/js/main.da2d5c0a.js.map"
   },
   "entrypoints": [
     "static/css/main.3edcc1ac.css",
-    "static/js/main.6dd7b4e0.js"
+    "static/js/main.da2d5c0a.js"
   ]
 }
