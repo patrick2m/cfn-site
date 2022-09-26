@@ -27,7 +27,7 @@ export default function Header() {
         <div id="menu-header">
           <ul>
             <li>
-              <Link className="menu-link" to="/CFN-institutional-website">
+              <Link className="menu-link" to="/">
                 Home
               </Link>
             </li>
