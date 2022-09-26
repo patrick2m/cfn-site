@@ -16,8 +16,8 @@ export default function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/support" element={<Support />} />
+        <Route path="/Sobre" element={<About />} />
+        <Route path="/Contate-nos" element={<Support />} />
       </Routes>
       <Footer />
     </BrowserRouter>

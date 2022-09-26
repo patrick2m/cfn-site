@@ -38,7 +38,7 @@ export default function Header() {
             </li>
             <li>
               <Link className="menu-link" to="/Support">
-                Suporte
+                Contate-nos
               </Link>
             </li>
           </ul>
