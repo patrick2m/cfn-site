@@ -15,7 +15,7 @@ export default function App() {
       <Intro />
       <Header />
       <Routes>
-        <Route path="/CFN-institutional-website" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/support" element={<Support />} />
       </Routes>
