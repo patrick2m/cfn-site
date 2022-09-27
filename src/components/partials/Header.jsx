@@ -28,7 +28,7 @@ export default function Header() {
           <ul>
             <li>
               <Link className="menu-link" to="/">
-                Home
+                Início
               </Link>
             </li>
             <li>

@@ -1,4 +1,4 @@
-import './About.scss'
+import './Sobre.scss'
 
 import img1956 from '../assets/img/about/1956.webp'
 import amaralpeixoto from '../assets/img/about/amaral-peixoto-1970.webp'
@@ -11,23 +11,22 @@ import lojabb from '../assets/img/about/lojabb.webp'
 import equipe from '../assets/img/about/equipe.webp'
 import treinamento from '../assets/img/about/treinamento.webp'
 
-export default function About() {
+export default function Sobre() {
   return (
     <main id="main-about">
       <h2 className="section-title">Sobre nós</h2>
       {/* ----------Introdução---------- */}
       <section className="intro-about">
         <div className="banner-about">
-          <h1>Há mais de 60 anos com o que há de mais moderno e seguro!</h1>
+          <h1>Há mais de 60 anos cuidando do seu lar com modernidade e segurança!</h1>
           <p>
             ESPECIALIZADA EM FECHADURAS, FERRAGENS, MAÇANETAS, PUXADORES E
             ACESSÓRIOS
           </p>
         </div>
         <h4>
-          Há mais de 60 anos no mercado, somos referência em qualidade e
-          variedade de produtos. Somos uma casa cheia de tradição e boas
-          histórias!
+          Após tanto tempo de mercado, somos referência em qualidade e
+          variedade de produtos. Somos uma casa cheia de tradição e boas histórias!
         </h4>
       </section>
 
@@ -262,25 +261,11 @@ export default function About() {
           profissionais.
         </span>
       </div>
-      {/* ----------Seção de Mapas---------- */}
-      <div className="address-info">
-        <h2 className="section-title">Endereços</h2>
-
-        <div className="map-info">
-          <div className="map">
-            <h4 className="map-name">Unidade Niterói</h4>
-            <p>Rua Marechal Deodoro, Nº 168, Centro - Niterói/RJ</p>
-            <p>24030-060</p>
-          </div>
-
-          <div className="map">
-            <h4 className="map-name">Unidade São Gonçalo</h4>
-            <p>Rua Dr. Felíciano Sodré, Nº 57, Centro - São Gonçalo</p>
-            <p>24440-440</p>
-          
-          </div>
-        </div>
+      
+      <div className="centralizardivisoria">
+        <hr className="divisoria" />
       </div>
+      
     </main>
   )
 }

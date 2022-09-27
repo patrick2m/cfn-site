@@ -25,18 +25,21 @@
     width: 100%;
 
     .contact-info {
-      width: 90%;
+      width: 100%;
       padding-right: 60px;
+      padding-left: 60px;
       .contact-info-place {
-        padding-bottom: 72px;
-
-        h3 {
+        padding-bottom: 40px;
+        .contact-info-title {
           color: #016ac5;
           font-weight: 500;
         }
+        p {
+          margin-bottom: 0px;
+        }
       }
       .contact-info-opening-hours {
-        h3 {
+        .contact-info-opening-hours-title {
           font-weight: 500;
           color: #016ac5;
         }
@@ -44,7 +47,7 @@
     }
 
     .vertical-line-contact-page {
-      height: 460px;
+      height: 420px;
       border-right: 5px solid #256fac;
     }
 
