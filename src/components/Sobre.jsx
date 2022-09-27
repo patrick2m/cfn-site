@@ -18,7 +18,7 @@ export default function Sobre() {
       {/* ----------Introdução---------- */}
       <section className="intro-about">
         <div className="banner-about">
-          <h1>Há mais de 60 anos cuidando do seu lar com modernidade e segurança!</h1>
+          <h1>Há mais de 60 anos cuidando do seu lar com segurança!</h1>
           <p>
             ESPECIALIZADA EM FECHADURAS, FERRAGENS, MAÇANETAS, PUXADORES E
             ACESSÓRIOS
