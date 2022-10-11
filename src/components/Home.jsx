@@ -3,9 +3,9 @@ import CarouselContainer from './partials/Carousel'
 import Cards from './partials/Cards'
 import Gallery from './partials/Gallery'
 import Brands from './partials/Brands'
-import img1 from '../assets/img/carousel/carousel_home_1.jpg'
-import img2 from '../assets/img/carousel/carousel_home_2.jpg'
-import img3 from '../assets/img/carousel/carousel_home_3.jpg'
+import img1 from '../assets/img/carousel/carousel_home_1.webp'
+import img2 from '../assets/img/carousel/carousel_home_2.webp'
+import img3 from '../assets/img/carousel/carousel_home_3.webp'
 
 export default function Home() {
   return (
