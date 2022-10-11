@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea63f12f.css",
-    "main.js": "/static/js/main.d674673d.js",
-    "static/media/carousel_home_1.jpg": "/static/media/carousel_home_1.536d34255290202de5ac.jpg",
+    "main.css": "/static/css/main.7ece1df5.css",
+    "main.js": "/static/js/main.860a2a0d.js",
     "static/media/fotogaleria9.webp": "/static/media/fotogaleria9.5f931651453dc693375b.webp",
     "static/media/fotogaleria2.webp": "/static/media/fotogaleria2.f6d72eb9a72e7f9a3ad3.webp",
     "static/media/fotogaleria3.webp": "/static/media/fotogaleria3.758b3b70a01db3e911e6.webp",
     "static/media/fotogaleria4.webp": "/static/media/fotogaleria4.fc8d904a91468c20eb9b.webp",
     "static/media/fotogaleria7.webp": "/static/media/fotogaleria7.83885061482cb16c6e66.webp",
+    "static/media/carousel_home_1.webp": "/static/media/carousel_home_1.e02fe41c8c93ed2b760a.webp",
     "static/media/fotogaleria6.webp": "/static/media/fotogaleria6.b475287ec5ef702c5f68.webp",
     "static/media/fotogaleria1.webp": "/static/media/fotogaleria1.c22650d006df545afcf6.webp",
     "static/media/fotogaleria5.webp": "/static/media/fotogaleria5.6881b9b798a61a2c9908.webp",
-    "static/media/carousel_home_3.jpg": "/static/media/carousel_home_3.8f00fbcfa7fb1251beca.jpg",
     "static/media/fotogaleria8.webp": "/static/media/fotogaleria8.e0aecba9c699dd3f9450.webp",
     "static/media/arouca.png": "/static/media/arouca.2c0cb97a1f1107781a5f.png",
     "static/media/Card2.png": "/static/media/Card2.1da2470024abe683ec93.png",
     "static/media/Card1.png": "/static/media/Card1.bfdbabcf51cb7efa3e87.png",
-    "static/media/carousel_home_2.jpg": "/static/media/carousel_home_2.2edeb6000c0e124ea9b9.jpg",
+    "static/media/carousel_home_2.webp": "/static/media/carousel_home_2.b9e1e59c897d4fc280ef.webp",
     "static/media/vouga.png": "/static/media/vouga.5700091a28245b9c7c36.png",
     "static/media/Card3.png": "/static/media/Card3.e0a8a6e5913a04d1b5dc.png",
     "static/media/1956.webp": "/static/media/1956.f9b53cc9a073b3248951.webp",
+    "static/media/carousel_home_3.webp": "/static/media/carousel_home_3.ef5ce38aa865f7d90af9.webp",
     "static/media/aperto-de-mao.webp": "/static/media/aperto-de-mao.7be406b69d36eccafaad.webp",
     "static/media/alianca.png": "/static/media/alianca.78f782580c80a89dd4f2.png",
     "static/media/casadasfechaduras2010lojanova.webp": "/static/media/casadasfechaduras2010lojanova.48462ecd3331ba24c38a.webp",
@@ -39,11 +39,11 @@
     "static/media/haga.png": "/static/media/haga.c0fb2ade82bf29cf0054.png",
     "static/media/pado.png": "/static/media/pado.58a30f2e4142e93b8eaf.png",
     "index.html": "/index.html",
-    "main.ea63f12f.css.map": "/static/css/main.ea63f12f.css.map",
-    "main.d674673d.js.map": "/static/js/main.d674673d.js.map"
+    "main.7ece1df5.css.map": "/static/css/main.7ece1df5.css.map",
+    "main.860a2a0d.js.map": "/static/js/main.860a2a0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea63f12f.css",
-    "static/js/main.d674673d.js"
+    "static/css/main.7ece1df5.css",
+    "static/js/main.860a2a0d.js"
   ]
 }
