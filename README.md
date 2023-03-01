@@ -1,4 +1,4 @@
-Site : https://patrick2m.github.io/CFN-institutional-website/
+Site : https://patrick2m.github.io/cfn-site/
 
 Website de Loja real, Casa das Fechaduras de Niterói, criado enquanto livre no estágio de suporte técnico(Central de Processamento de Dados) da empresa, com o intuíto de aprender e praticar GIT, HTML, CSS, Javascript e ReactJs.
 Feito entre Janeiro e Março de 2022 até o momento.

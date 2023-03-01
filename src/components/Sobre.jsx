@@ -11,9 +11,16 @@ import lojabb from '../assets/img/about/lojabb.webp'
 import equipe from '../assets/img/about/equipe.webp'
 import treinamento from '../assets/img/about/treinamento.webp'
 
+import { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 export default function Sobre() {
+  useEffect(() => {
+    AOS.init({ duration: 1000, });
+  }, [])
   return (
-    <main id="main-about">
+    <main id="main-about" data-aos="fade-up">
       <h2 className="section-title">Sobre nós</h2>
       {/* ----------Introdução---------- */}
       <section className="intro-about">
@@ -33,7 +40,7 @@ export default function Sobre() {
       <h2 className="section-title">Nossa história</h2>
 
       {/*  ----------Artigos---------- */}
-      <div className="article">
+      <div className="article" data-aos="fade-up" data-aos-duration="1000">
         <div className="article-img-container">
           <img src={img1956} alt="Ano de 1956" className="article-img" />
           <div className="article-img-text-left">
@@ -50,11 +57,11 @@ export default function Sobre() {
         </span>
       </div>
 
-      <div className="centralizardivisoria">
+      <div className="centralizardivisoria" data-aos="fade-up" data-aos-duration="2000">
         <hr className="divisoria" />
       </div>
 
-      <div className="article flex-row-reverse">
+      <div className="article flex-row-reverse" data-aos="fade-up" data-aos-duration="2000">
         <div className="article-img-container">
           <img
             src={amaralpeixoto}
@@ -74,11 +81,11 @@ export default function Sobre() {
         </span>
       </div>
 
-      <div className="centralizardivisoria">
+      <div className="centralizardivisoria" data-aos="fade-up" data-aos-duration="2000">
         <hr className="divisoria" />
       </div>
 
-      <div className="article">
+      <div className="article" data-aos="fade-up" data-aos-duration="2000">
         <div className="article-img-container">
           <img
             src={casadasfechaduras2010}
@@ -98,11 +105,11 @@ export default function Sobre() {
         </span>
       </div>
 
-      <div className="centralizardivisoria">
+      <div className="centralizardivisoria" data-aos="fade-up" data-aos-duration="2000">
         <hr className="divisoria" />
       </div>
 
-      <div className="article flex-row-reverse">
+      <div className="article flex-row-reverse" data-aos="fade-up" data-aos-duration="2000">
         <div className="article-img-container">
           <img src={chaveirocf} alt="Chaveiro CF" className="article-img" />
           <div className="article-img-text-right">
@@ -117,11 +124,11 @@ export default function Sobre() {
         </span>
       </div>
 
-      <div className="centralizardivisoria">
+      <div className="centralizardivisoria" data-aos="fade-up" data-aos-duration="2000">
         <hr className="divisoria" />
       </div>
 
-      <div className="article">
+      <div className="article" data-aos="fade-up" data-aos-duration="2000">
         <div className="article-img-container">
           <img
             src={apertodemao}
@@ -141,11 +148,11 @@ export default function Sobre() {
         </span>
       </div>
 
-      <div className="centralizardivisoria">
+      <div className="centralizardivisoria" data-aos="fade-up" data-aos-duration="2000">
         <hr className="divisoria" />
       </div>
 
-      <div className="article flex-row-reverse">
+      <div className="article flex-row-reverse" data-aos="fade-up" data-aos-duration="2000">
         <div className="article-img-container">
           <img
             src={casadasfechaduras2010lojanova}
@@ -166,11 +173,11 @@ export default function Sobre() {
         </span>
       </div>
 
-      <div className="centralizardivisoria">
+      <div className="centralizardivisoria" data-aos="fade-up" data-aos-duration="2000">
         <hr className="divisoria" />
       </div>
 
-      <div className="article">
+      <div className="article" data-aos="fade-up" data-aos-duration="2000">
         <div className="article-img-container">
           <img
             src={casadasferramentas}
@@ -190,11 +197,11 @@ export default function Sobre() {
         </span>
       </div>
 
-      <div className="centralizardivisoria">
+      <div className="centralizardivisoria" data-aos="fade-up" data-aos-duration="2000">
         <hr className="divisoria" />
       </div>
 
-      <div className="article flex-row-reverse">
+      <div className="article flex-row-reverse" data-aos="fade-up" data-aos-duration="2000">
         <div className="article-img-container">
           <img
             src={lojabb}
@@ -212,11 +219,11 @@ export default function Sobre() {
         </span>
       </div>
 
-      <div className="centralizardivisoria">
+      <div className="centralizardivisoria" data-aos="fade-up" data-aos-duration="2000">
         <hr className="divisoria" />
       </div>
 
-      <div className="article">
+      <div className="article" data-aos="fade-up" data-aos-duration="2000">
         <div className="article-img-container">
           <img
             src={equipe}
@@ -238,11 +245,11 @@ export default function Sobre() {
         </span>
       </div>
 
-      <div className="centralizardivisoria">
+      <div className="centralizardivisoria" data-aos="fade-up" data-aos-duration="2000">
         <hr className="divisoria" />
       </div>
 
-      <div className="article flex-row-reverse">
+      <div className="article flex-row-reverse" data-aos="fade-up" data-aos-duration="2000">
         <div className="article-img-container">
           <img
             src={treinamento}
@@ -256,13 +263,13 @@ export default function Sobre() {
         <span className="article-text">
           Desde a sua fundação, a Casa das Fechaduras investe na valorização e
           aperfeiçoamento dos seus funcionários, através de cursos, treinamentos
-          e visitas às fábricas, proporcionando assum um atendimento cada vez
-          mais personalizado aos seus clientes, seja o consumidor, sejam
+          e visitas às fábricas, proporcionando assim um atendimento cada vez
+          mais personalizado aos seus clientes, seja o consumidor ou 
           profissionais.
         </span>
       </div>
       
-      <div className="centralizardivisoria">
+      <div className="centralizardivisoria" data-aos="fade-up" data-aos-duration="2000">
         <hr className="divisoria" />
       </div>
       

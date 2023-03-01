@@ -1,27 +1,127 @@
 #main-footer {
   width: 100%;
-  height: 60px;
-  
-  background-color: black;
+  height: 260px;
+  background-color: #252525;
   color: white;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  
-  h1 {
-    padding-top: 8px;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: small;
+  padding-top: 20px;
+  .footer-menu {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    h2 {
+      font-size: larger;
+      font-weight: 700;
+      padding-top: 10px;
+    }
+
+    p {
+      font-size: smaller;
+      padding-top: 15px;
+    }
+    .footer-left {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      .big-logo {
+        max-width: 330px;
+        display: block;
+        padding-bottom: 10px;
+
+        &:hover {
+          filter: drop-shadow(0px 0px 1.5px white);
+          transition: 0.3s;
+        }
+      }
+      .menu-link {
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        padding: 5px 10px;
+        border-radius: 2px;
+
+        &:hover {
+          filter: drop-shadow(0px 0px 1px white);
+          transition: 0.4s;
+        }
+      }
+    }
+    .footer-middle {
+      p {
+        margin: 0;
+      }
+    }
+    .footer-right {
+      p {
+        margin: 0;
+      }
+    }
+  }
+  .footer-copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+
+    h1 {
+      font-size: large;
+    }
+
+    a {
+      color: rgb(203, 159, 159);
+    }
   }
 }
+@media (max-width: 1120px) {
+  #main-footer {
+    .footer-menu {
+      .footer-left {
+        .big-logo {
+          max-width: 300px;
+        }
+      }
+    }
+    .footer-copy {
+      h1 {
+        font-size: medium;
+      }
+    }
+  }
+}
+@media (max-width: 830px) {
+  #main-footer {
+    height: 600px;
+    .footer-menu {
+      flex-direction: column;
+      .footer-left {
+        align-items: center;
+        padding-bottom: 20px;
+        .big-logo {
+          max-width: 350px;
+        }
+        .menu-link {
+          font-weight: 700;
+        }
+      }
+      .footer-middle {
+        padding-bottom: 20px;
+        h2 {
+          margin: 0 5px;
+        }
+      }
+      .footer-right {
+        h2 {
+          margin: 0 5px;
+        }
+      }
+    }
+    .footer-copy {
+      margin-left: 5px;
+      margin-right: 5px;
 
-// @media (max-width: 1120px) {
-
-// }
-
-// @media (max-width: 830px) {
-
-// }
+      h1 {
+        font-size: small;
+      }
+    }
+  }
+}

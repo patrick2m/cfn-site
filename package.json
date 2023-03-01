@@ -1,12 +1,10 @@
 {
   "name": "cfn-site",
-  "homepage": "https://www.casadasfechaduras.com.br/",
+  "homepage": "https://patrick2m.github.io/CFN-site/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
+    "aos": "^2.3.4",
     "bootstrap": "^5.1.3",
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",
@@ -21,8 +19,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts --max_old_space_size=4096 build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
