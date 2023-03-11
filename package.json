@@ -1,6 +1,6 @@
 {
   "name": "cfn-site",
-  "homepage": "https://patrick2m.github.io/CFN-site/",
+  "homepage": "https://patrick2m.github.io/cfn-site/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
