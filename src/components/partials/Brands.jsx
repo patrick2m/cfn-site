@@ -46,7 +46,7 @@ export default function Brands() {
         </div>
         <div className="image-box">
           <a
-            href="https://www.intelbras.com/pt-br/seguranca-eletronica/fechaduras/digitais"
+            href="https://www.intelbras.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -72,12 +72,20 @@ export default function Brands() {
           </a>
         </div>
         <div className="image-box">
-          <a href="https://www.papaiz.com.br/" target="_blank" rel="noreferrer">
+          <a 
+            href="https://www.papaiz.com.br/" 
+            target="_blank" 
+            rel="noreferrer"
+          >
             <img src={papaiz} alt="Papaiz" />
           </a>
         </div>
         <div className="image-box">
-          <a href="https://qtmov.com.br/" target="_blank" rel="noreferrer">
+          <a 
+            href="https://qtmov.com.br/" 
+            target="_blank" 
+            rel="noreferrer"
+          >
             <img src={qtmov} alt="QTMov" />
           </a>
         </div>
@@ -91,12 +99,20 @@ export default function Brands() {
           </a>
         </div>
         <div className="image-box">
-          <a href="https://stam.com.br/" target="_blank" rel="noreferrer">
+          <a 
+            href="https://stam.com.br/" 
+            target="_blank" 
+            rel="noreferrer"
+          >
             <img src={stam} alt="Stam" />
           </a>
         </div>
         <div className="image-box">
-          <a href="https://www.tupai.pt/" target="_blank" rel="noreferrer">
+          <a 
+            href="https://www.tupai.pt/" 
+            target="_blank" 
+            rel="noreferrer"
+          >
             <img src={tupai} alt="TUPAI" />
           </a>
         </div>
@@ -111,7 +127,7 @@ export default function Brands() {
         </div>
         <div className="image-box">
           <a
-            href="https://patrick2m.github.io/CFN-institutional-website/"
+            href="https://patrick2m.github.io/cfn-site/"
             target="_blank"
             rel="noreferrer"
           >

@@ -14,7 +14,7 @@ export default function Footer() {
       <div className='footer-menu'>
         <div className='footer-left'>
           <img className="big-logo" src={imglogo} alt="Casa das Fechaduras" />
-          <Link className='menu-link' to="/">Início</Link>
+          <Link className='menu-link' to="/cfn-site">Início</Link>
           <Link className='menu-link' to="/Sobre">Sobre</Link>
           <Link className='menu-link' to="/Contato">Contato</Link>
         </div>
